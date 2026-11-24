@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="736" height="270" viewBox="0 0 736 270" role="img" aria-labelledby="title description">
+<title id="title">图底关系</title>
+<desc id="description">相同的分界左图显出中间形状，右图用眼睛提示两边相对的侧脸。</desc>
+<rect x="0" y="0" width="736" height="270" rx="14" fill="#fcfbf7"/>
+<rect x="24" y="20" width="332" height="208" rx="12" fill="#ffffff" stroke="#d1dadd" stroke-width="2"/>
+<rect x="380" y="20" width="332" height="208" rx="12" fill="#ffffff" stroke="#d1dadd" stroke-width="2"/>
+<g transform="translate(24 20)">
+<rect x="84" y="35" width="164" height="138" rx="4" fill="#d8e5e8"/><path d="M126 35 C140 45 142 53 140 67 L150 86 Q153 92 141 94 L140 101 L145 106 L140 111 Q146 121 139 129 Q132 138 124 135 Q123 150 113 161 L113 173 H219 L219 161 Q209 150 208 135 Q200 138 193 129 Q186 121 192 111 L187 106 L192 101 L191 94 Q179 92 182 86 L192 67 C190 53 192 45 206 35 Z" fill="#173b49" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(380 20)">
+<rect x="84" y="35" width="164" height="138" rx="4" fill="#173b49"/><path d="M126 35 C140 45 142 53 140 67 L150 86 Q153 92 141 94 L140 101 L145 106 L140 111 Q146 121 139 129 Q132 138 124 135 Q123 150 113 161 L113 173 H219 L219 161 Q209 150 208 135 Q200 138 193 129 Q186 121 192 111 L187 106 L192 101 L191 94 Q179 92 182 86 L192 67 C190 53 192 45 206 35 Z" fill="#f2f8f8" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="130" cy="74" r="2.5" fill="#edf5f7"/><circle cx="202" cy="74" r="2.5" fill="#edf5f7"/>
+</g>
+<g fill="#173b49" font-size="16" font-family="Arial, sans-serif" font-weight="bold" text-anchor="middle"><text x="190" y="253">A</text><text x="546" y="253">B</text></g>
+</svg>

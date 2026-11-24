@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="736" height="270" viewBox="0 0 736 270" role="img" aria-labelledby="title description">
+<title id="title">共同命运律</title>
+<desc id="description">第二帧中三颗深色圆一起右移，浅色圆的坐标固定。</desc>
+<rect x="0" y="0" width="736" height="270" rx="14" fill="#fcfbf7"/>
+<rect x="24" y="20" width="332" height="208" rx="12" fill="#ffffff" stroke="#d1dadd" stroke-width="2"/>
+<rect x="380" y="20" width="332" height="208" rx="12" fill="#ffffff" stroke="#d1dadd" stroke-width="2"/>
+<g transform="translate(24 20)">
+<circle cx="96" cy="52" r="7" fill="#bed0d3"/>
+<circle cx="208" cy="56" r="7" fill="#bed0d3"/>
+<circle cx="200" cy="155" r="7" fill="#bed0d3"/><circle cx="105" cy="92" r="9" fill="#087c70"/>
+<circle cx="159" cy="111" r="9" fill="#087c70"/>
+<circle cx="121" cy="144" r="9" fill="#087c70"/>
+</g>
+<g transform="translate(380 20)">
+<circle cx="96" cy="52" r="7" fill="#bed0d3"/>
+<circle cx="208" cy="56" r="7" fill="#bed0d3"/>
+<circle cx="200" cy="155" r="7" fill="#bed0d3"/><circle cx="147" cy="92" r="9" fill="#087c70"/>
+<circle cx="201" cy="111" r="9" fill="#087c70"/>
+<circle cx="163" cy="144" r="9" fill="#087c70"/>
+</g>
+<g fill="#173b49" font-size="16" font-family="Arial, sans-serif" font-weight="bold" text-anchor="middle"><text x="190" y="253">t0</text><text x="546" y="253">t1</text></g>
+</svg>
