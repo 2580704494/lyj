@@ -1,0 +1,470 @@
+{
+  "schema_version": "1.0",
+  "system_version": "1.0.0",
+  "profile": {
+    "id": "STYLE-NIGHTGARDEN-001",
+    "version": "0.1.0",
+    "parent": null,
+    "name": {
+      "zh": "冷夜暖光·繁密装饰叙事",
+      "en": "Cool night, warm lights, dense decorative narrative"
+    },
+    "status": "provisional",
+    "illustrative": false,
+    "dimensions": {
+      "identity": {
+        "state": "active",
+        "note": {
+          "zh": "复古童话感装饰性绘画；媒介来源未确认。",
+          "en": "Decorative painting with a vintage storybook character; original medium unverified."
+        }
+      },
+      "color": {
+        "state": "active",
+        "note": {
+          "zh": "以深绿、橄榄绿和灰蓝组织冷暗基底，以象牙白建立明亮形体；小面积琥珀暖光与橙红强调色形成节奏。",
+          "en": "Build a cool dark base with forest green, olive and slate blue, articulate light forms in ivory, and use small amber lights and orange-red accents rhythmically."
+        }
+      },
+      "light": {
+        "state": "active",
+        "note": {
+          "zh": "光感来自冷暗环境中的局部暖亮区域，控制光晕范围，保留暗部层次；不引入强烈体积光或全画面泛光。",
+          "en": "Create light through localized warm accents within a cool dark environment; contain halos and retain dark detail, without strong volumetric beams or overall bloom."
+        }
+      },
+      "composition": {
+        "state": "active",
+        "note": {
+          "zh": "远景场景以边缘框景和前中后层叠组织空间，压缩纵深但保持遮挡与尺度关系清楚，形成向内延伸的阅读路径。",
+          "en": "For wide scenes, organize space with edge framing and overlapping foreground, middle and background layers; compress depth while keeping occlusion and scale legible and directing the eye inward."
+        }
+      },
+      "scale": {
+        "state": "active",
+        "note": {
+          "zh": "远景以环境主导，近景装饰形体相对夸大；出现人物时保持其为小尺度叙事点，不改成人物特写。",
+          "en": "In wide scenes, let the environment dominate and enlarge foreground decorative forms relatively; when people appear, keep them as small narrative accents rather than close-up portraits."
+        }
+      },
+      "shape": {
+        "state": "active",
+        "note": {
+          "zh": "保留可辨识轮廓与精细内部结构，兼用规整重复和有机曲线；避免将主体简化为大块无细节几何形。",
+          "en": "Preserve recognizable silhouettes and fine internal structure, combining orderly repetition with organic curves; avoid reducing subjects to large featureless geometric blocks."
+        }
+      },
+      "render": {
+        "state": "active",
+        "note": {
+          "zh": "采用细密装饰性叙事绘画，薄层不透明铺色与精细线性细节结合；避免摄影写实、光滑三维和粗厚涂抹。",
+          "en": "Use finely detailed decorative narrative painting with thin opaque color and delicate linear detail; avoid photorealism, smooth 3D rendering and thick impasto."
+        }
+      },
+      "edge": {
+        "state": "active",
+        "note": {
+          "zh": "主要轮廓细而清楚，内部明暗柔和过渡；不同深度仍保留可辨细节，不用摄影景深模糊。",
+          "en": "Keep principal contours fine and clear with gentle internal tonal modeling; retain readable detail at different depths without photographic depth-of-field blur."
+        }
+      },
+      "finish": {
+        "state": "active",
+        "note": {
+          "zh": "花叶和建筑精修，天空与远处人物概括。",
+          "en": "Flowers, foliage and architecture are finely resolved; sky and distant people are simplified."
+        }
+      },
+      "texture": {
+        "state": "active",
+        "note": {
+          "zh": "用对象自身的细线、刻纹、叶脉和层叠表达材质，表面整体哑光；不添加盖过细节的粗纸纹或厚重笔触。",
+          "en": "Express materials through fine object-specific lines, incisions, veins and layering on an overall matte surface; avoid coarse paper grain or heavy strokes that obscure detail."
+        }
+      },
+      "density": {
+        "state": "active",
+        "note": {
+          "zh": "在主要形体与周围装饰中保留高密度但有序的细节，同时设置相对安静的区域供视觉停顿；避免均匀铺满纹理。",
+          "en": "Retain dense but ordered detail in major forms and surrounding ornament, balanced by quieter areas for visual rest; avoid uniform texture coverage."
+        }
+      },
+      "anchor": {
+        "state": "active",
+        "note": {
+          "zh": "亮色建筑、窗灯、橙色花朵与小人物形成多级锚点。",
+          "en": "Light architecture, illuminated windows, orange flowers and small figures form multiple levels of attention."
+        }
+      },
+      "tension": {
+        "state": "active",
+        "note": {
+          "zh": "冷暖、大小、繁简与几何/有机形态对照。",
+          "en": "Contrasts of temperature, scale, density and geometric versus organic forms."
+        }
+      }
+    },
+    "references": [
+      {
+        "id": "REF001",
+        "role": "style",
+        "source": "User-supplied night garden city reference in this conversation; original author and medium unverified.",
+        "seen": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E001",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "建筑立面与花叶",
+        "observation": {
+          "zh": "花叶与建筑有细密线性细节，色面平整且明暗受控。",
+          "en": "Foliage and architecture have fine linear detail, even color areas and controlled modeling."
+        }
+      },
+      {
+        "id": "E002",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "深绿植被、灰蓝天空、浅色建筑、暖窗",
+        "observation": {
+          "zh": "深绿植被、灰蓝天空、象牙色建筑与小面积橙色花朵和暖窗共同出现。",
+          "en": "Dark green vegetation, slate blue sky, ivory architecture, orange flowers and warm windows appear together."
+        }
+      },
+      {
+        "id": "E003",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "窗户、路灯和零星亮点",
+        "observation": {
+          "zh": "暖亮窗户和路灯散布在冷暗场景中，周围暗部仍可辨。",
+          "en": "Warm windows and lanterns punctuate a cool dark scene with readable surrounding shadows."
+        }
+      },
+      {
+        "id": "E004",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "叶缘、尖塔轮廓、窗格",
+        "observation": {
+          "zh": "叶缘、塔尖与窗格清楚，墙面和花瓣内部有柔和明暗。",
+          "en": "Leaf edges, spires and window grids are clear, with gentle tonal changes inside walls and petals."
+        }
+      },
+      {
+        "id": "E005",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "叶脉、花瓣、石雕",
+        "observation": {
+          "zh": "叶脉、石雕和花瓣纹理可辨，未见主导画面的粗厚笔触。",
+          "en": "Veins, stone ornament and petal detail are visible, without dominant heavy brush strokes."
+        }
+      },
+      {
+        "id": "E006",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "花园、立面与上部天空",
+        "observation": {
+          "zh": "花木和建筑均有大量细节，上方天空相对简洁。",
+          "en": "Both vegetation and architecture are highly detailed, while the upper sky is relatively quiet."
+        }
+      },
+      {
+        "id": "E007",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "上下花木框景、城镇叠层",
+        "observation": {
+          "zh": "树干与枝叶包围上角，花木包围下部，城镇在遮挡中逐层深入。",
+          "en": "Trunks and branches frame upper corners, flowers frame the lower scene, and overlapping town layers recede inward."
+        }
+      },
+      {
+        "id": "E008",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "巨大花叶、建筑与小人物",
+        "observation": {
+          "zh": "近处花叶相对巨大，人物远小于建筑，环境占据大部分画面。",
+          "en": "Foreground flowers and leaves are relatively large, people are much smaller than buildings, and the environment dominates the image."
+        }
+      },
+      {
+        "id": "E009",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "有机花叶与建筑尖拱",
+        "observation": {
+          "zh": "建筑窗格与尖拱形成重复秩序，花叶呈弯曲有机轮廓。",
+          "en": "Window grids and pointed arches form ordered repetitions, while flowers and leaves have curved organic contours."
+        }
+      }
+    ],
+    "rules": [
+      {
+        "id": "R001",
+        "dimension": "render",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "采用细密装饰性叙事绘画，薄层不透明铺色与精细线性细节结合；避免摄影写实、光滑三维和粗厚涂抹。",
+          "en": "Use finely detailed decorative narrative painting with thin opaque color and delicate linear detail; avoid photorealism, smooth 3D rendering and thick impasto."
+        },
+        "variation": {
+          "zh": "主体、具体物件和位置可以变化，保留本条形式关系。",
+          "en": "Subjects, specific objects and positions may change while preserving this formal relationship."
+        },
+        "check": {
+          "zh": "对照参考与成图，检查本条关系是否可见；无法判定则记 unknown。",
+          "en": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+        },
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R002",
+        "dimension": "color",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "以深绿、橄榄绿和灰蓝组织冷暗基底，以象牙白建立明亮形体；小面积琥珀暖光与橙红强调色形成节奏。",
+          "en": "Build a cool dark base with forest green, olive and slate blue, articulate light forms in ivory, and use small amber lights and orange-red accents rhythmically."
+        },
+        "variation": {
+          "zh": "主体、具体物件和位置可以变化，保留本条形式关系。",
+          "en": "Subjects, specific objects and positions may change while preserving this formal relationship."
+        },
+        "check": {
+          "zh": "对照参考与成图，检查本条关系是否可见；无法判定则记 unknown。",
+          "en": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+        },
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R003",
+        "dimension": "light",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "光感来自冷暗环境中的局部暖亮区域，控制光晕范围，保留暗部层次；不引入强烈体积光或全画面泛光。",
+          "en": "Create light through localized warm accents within a cool dark environment; contain halos and retain dark detail, without strong volumetric beams or overall bloom."
+        },
+        "variation": {
+          "zh": "主体、具体物件和位置可以变化，保留本条形式关系。",
+          "en": "Subjects, specific objects and positions may change while preserving this formal relationship."
+        },
+        "check": {
+          "zh": "对照参考与成图，检查本条关系是否可见；无法判定则记 unknown。",
+          "en": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+        },
+        "evidence_ids": [
+          "E003"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R004",
+        "dimension": "edge",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "主要轮廓细而清楚，内部明暗柔和过渡；不同深度仍保留可辨细节，不用摄影景深模糊。",
+          "en": "Keep principal contours fine and clear with gentle internal tonal modeling; retain readable detail at different depths without photographic depth-of-field blur."
+        },
+        "variation": {
+          "zh": "主体、具体物件和位置可以变化，保留本条形式关系。",
+          "en": "Subjects, specific objects and positions may change while preserving this formal relationship."
+        },
+        "check": {
+          "zh": "对照参考与成图，检查本条关系是否可见；无法判定则记 unknown。",
+          "en": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+        },
+        "evidence_ids": [
+          "E004"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R005",
+        "dimension": "texture",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "用对象自身的细线、刻纹、叶脉和层叠表达材质，表面整体哑光；不添加盖过细节的粗纸纹或厚重笔触。",
+          "en": "Express materials through fine object-specific lines, incisions, veins and layering on an overall matte surface; avoid coarse paper grain or heavy strokes that obscure detail."
+        },
+        "variation": {
+          "zh": "主体、具体物件和位置可以变化，保留本条形式关系。",
+          "en": "Subjects, specific objects and positions may change while preserving this formal relationship."
+        },
+        "check": {
+          "zh": "对照参考与成图，检查本条关系是否可见；无法判定则记 unknown。",
+          "en": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+        },
+        "evidence_ids": [
+          "E005"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R006",
+        "dimension": "density",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "在主要形体与周围装饰中保留高密度但有序的细节，同时设置相对安静的区域供视觉停顿；避免均匀铺满纹理。",
+          "en": "Retain dense but ordered detail in major forms and surrounding ornament, balanced by quieter areas for visual rest; avoid uniform texture coverage."
+        },
+        "variation": {
+          "zh": "主体、具体物件和位置可以变化，保留本条形式关系。",
+          "en": "Subjects, specific objects and positions may change while preserving this formal relationship."
+        },
+        "check": {
+          "zh": "对照参考与成图，检查本条关系是否可见；无法判定则记 unknown。",
+          "en": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+        },
+        "evidence_ids": [
+          "E006"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R007",
+        "dimension": "composition",
+        "scope": "conditional",
+        "priority": "must",
+        "instruction": {
+          "zh": "远景场景以边缘框景和前中后层叠组织空间，压缩纵深但保持遮挡与尺度关系清楚，形成向内延伸的阅读路径。",
+          "en": "For wide scenes, organize space with edge framing and overlapping foreground, middle and background layers; compress depth while keeping occlusion and scale legible and directing the eye inward."
+        },
+        "variation": {
+          "zh": "主体、具体物件和位置可以变化，保留本条形式关系。",
+          "en": "Subjects, specific objects and positions may change while preserving this formal relationship."
+        },
+        "check": {
+          "zh": "对照参考与成图，检查本条关系是否可见；无法判定则记 unknown。",
+          "en": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+        },
+        "evidence_ids": [
+          "E007"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {
+          "shot_type": [
+            "wide"
+          ]
+        },
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R008",
+        "dimension": "scale",
+        "scope": "conditional",
+        "priority": "must",
+        "instruction": {
+          "zh": "远景以环境主导，近景装饰形体相对夸大；出现人物时保持其为小尺度叙事点，不改成人物特写。",
+          "en": "In wide scenes, let the environment dominate and enlarge foreground decorative forms relatively; when people appear, keep them as small narrative accents rather than close-up portraits."
+        },
+        "variation": {
+          "zh": "主体、具体物件和位置可以变化，保留本条形式关系。",
+          "en": "Subjects, specific objects and positions may change while preserving this formal relationship."
+        },
+        "check": {
+          "zh": "对照参考与成图，检查本条关系是否可见；无法判定则记 unknown。",
+          "en": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+        },
+        "evidence_ids": [
+          "E008"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {
+          "shot_type": [
+            "wide"
+          ]
+        },
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R009",
+        "dimension": "shape",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "保留可辨识轮廓与精细内部结构，兼用规整重复和有机曲线；避免将主体简化为大块无细节几何形。",
+          "en": "Preserve recognizable silhouettes and fine internal structure, combining orderly repetition with organic curves; avoid reducing subjects to large featureless geometric blocks."
+        },
+        "variation": {
+          "zh": "主体、具体物件和位置可以变化，保留本条形式关系。",
+          "en": "Subjects, specific objects and positions may change while preserving this formal relationship."
+        },
+        "check": {
+          "zh": "对照参考与成图，检查本条关系是否可见；无法判定则记 unknown。",
+          "en": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+        },
+        "evidence_ids": [
+          "E009"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      }
+    ],
+    "unresolved": [],
+    "validation_records": []
+  },
+  "task": {
+    "id": "TASK-NIGHTGARDEN-TEMPLATE",
+    "mode": "template",
+    "content": {
+      "zh": "主题：{{主题}}；主体：{{主体}}；动作与状态：{{动作与状态}}；场景：{{场景}}。",
+      "en": "Theme: {{theme}}; subjects: {{subjects}}; actions and state: {{actions_and_state}}; environment: {{environment}}."
+    },
+    "context": {
+      "subject_kind": "unknown",
+      "scene_kind": "unknown",
+      "shot_type": "unknown",
+      "text_mode": "unknown"
+    },
+    "requirements": [],
+    "unresolved": []
+  }
+}

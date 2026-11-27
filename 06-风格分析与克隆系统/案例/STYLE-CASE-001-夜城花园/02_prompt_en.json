@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "system_version": "1.0.0",
+    "schema_version": "1.0",
+    "profile_id": "STYLE-NIGHTGARDEN-001",
+    "profile_version": "0.1.0",
+    "task_id": "TASK-NIGHTGARDEN-TEMPLATE",
+    "task_mode": "template",
+    "source_digest": "796c939bc231cc6314d75a9e6e851e69b28cf78528bf0065ce2cf0f843e056bc",
+    "export_status": "template",
+    "illustrative": false,
+    "image_status": "not_generated",
+    "semantic_equivalence": "not_checked",
+    "pending": []
+  },
+  "language": "en",
+  "content": "Theme: {{theme}}; subjects: {{subjects}}; actions and state: {{actions_and_state}}; environment: {{environment}}.",
+  "context": {
+    "subject_kind": "unknown",
+    "scene_kind": "unknown",
+    "shot_type": "unknown",
+    "text_mode": "unknown"
+  },
+  "style_rules": [
+    {
+      "id": "R001",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Use finely detailed decorative narrative painting with thin opaque color and delicate linear detail; avoid photorealism, smooth 3D rendering and thick impasto.",
+      "variation": "Subjects, specific objects and positions may change while preserving this formal relationship.",
+      "check": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+    },
+    {
+      "id": "R002",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Build a cool dark base with forest green, olive and slate blue, articulate light forms in ivory, and use small amber lights and orange-red accents rhythmically.",
+      "variation": "Subjects, specific objects and positions may change while preserving this formal relationship.",
+      "check": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+    },
+    {
+      "id": "R003",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Create light through localized warm accents within a cool dark environment; contain halos and retain dark detail, without strong volumetric beams or overall bloom.",
+      "variation": "Subjects, specific objects and positions may change while preserving this formal relationship.",
+      "check": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+    },
+    {
+      "id": "R004",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Keep principal contours fine and clear with gentle internal tonal modeling; retain readable detail at different depths without photographic depth-of-field blur.",
+      "variation": "Subjects, specific objects and positions may change while preserving this formal relationship.",
+      "check": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+    },
+    {
+      "id": "R005",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Express materials through fine object-specific lines, incisions, veins and layering on an overall matte surface; avoid coarse paper grain or heavy strokes that obscure detail.",
+      "variation": "Subjects, specific objects and positions may change while preserving this formal relationship.",
+      "check": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+    },
+    {
+      "id": "R006",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Retain dense but ordered detail in major forms and surrounding ornament, balanced by quieter areas for visual rest; avoid uniform texture coverage.",
+      "variation": "Subjects, specific objects and positions may change while preserving this formal relationship.",
+      "check": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+    },
+    {
+      "id": "R009",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Preserve recognizable silhouettes and fine internal structure, combining orderly repetition with organic curves; avoid reducing subjects to large featureless geometric blocks.",
+      "variation": "Subjects, specific objects and positions may change while preserving this formal relationship.",
+      "check": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+    },
+    {
+      "id": "R007",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "shot_type": [
+          "wide"
+        ]
+      },
+      "instruction": "For wide scenes, organize space with edge framing and overlapping foreground, middle and background layers; compress depth while keeping occlusion and scale legible and directing the eye inward.",
+      "variation": "Subjects, specific objects and positions may change while preserving this formal relationship.",
+      "check": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+    },
+    {
+      "id": "R008",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "shot_type": [
+          "wide"
+        ]
+      },
+      "instruction": "In wide scenes, let the environment dominate and enlarge foreground decorative forms relatively; when people appear, keep them as small narrative accents rather than close-up portraits.",
+      "variation": "Subjects, specific objects and positions may change while preserving this formal relationship.",
+      "check": "Compare reference and output for this visible relationship; record unknown when it cannot be judged."
+    }
+  ],
+  "task_requirements": []
+}

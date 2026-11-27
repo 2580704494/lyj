@@ -1,0 +1,23 @@
+{
+  "tool": "built-in image_gen",
+  "attempt": 1,
+  "reference_conditioning": true,
+  "output": "克隆样图.png",
+  "review": {
+    "result": "fail",
+    "failed_must": [
+      "R005"
+    ],
+    "unknown_must": [],
+    "pending": [],
+    "non_must_findings": [],
+    "evidence_verification": "Record completeness checked only; actual pixels and statements require visual review."
+  },
+  "profile_status": "provisional",
+  "content_changes": [
+    "增加水面与拱桥",
+    "重新组织建筑位置和植物细节"
+  ],
+  "reference_archive": "用户原图未随本次公开提交；来源为本聊天附件，原作者未确认。",
+  "scope": "单图同主题、附参考图生成；未验证纯文本或跨主题迁移。"
+}

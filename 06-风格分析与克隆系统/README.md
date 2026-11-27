@@ -54,3 +54,8 @@ python tools/scimg.py verify-package .
 可复用性依靠证据、条件和检查维持。实际模型、题材和参考资料会影响结果；未做真实成图验证的档案不能宣称完美克隆或无限跨主题通用。
 
 [仓库首页](../README.md) · [详细规范](./system/CORE.txt) · [操作协议](./system/OPERATIONS.txt) · [档案结构](./schemas/bundle.schema.json)
+
+## 已归档风格案例
+
+- [STYLE-CASE-001 夜城花园](./案例/STYLE-CASE-001-夜城花园/分析.md)：十三维分析、九条风格规则、通用与实例四版提示词、第一版克隆图及偏差审计。当前为 provisional，首轮纹理规则未通过，尚未验证跨主题迁移。
+

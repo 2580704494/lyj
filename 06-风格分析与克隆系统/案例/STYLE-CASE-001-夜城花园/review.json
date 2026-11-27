@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "source_digest": "9b086dfbfd39f119d286dc1962cc0edaf05088a7314d56d99b00f2ba0c5cd43d",
+  "image_status": "reviewed",
+  "image_ref": "克隆样图.png",
+  "checks": [
+    {
+      "id": "R001",
+      "result": "pass",
+      "region": "全图对应规则区域",
+      "evidence": "保留细密装饰性叙事绘画，但刻线感增强。"
+    },
+    {
+      "id": "R002",
+      "result": "pass",
+      "region": "全图对应规则区域",
+      "evidence": "深绿、灰蓝、象牙色及局部暖橙关系保留。"
+    },
+    {
+      "id": "R003",
+      "result": "pass",
+      "region": "全图对应规则区域",
+      "evidence": "窗灯局部暖亮，未形成整幅泛光。"
+    },
+    {
+      "id": "R004",
+      "result": "pass",
+      "region": "全图对应规则区域",
+      "evidence": "建筑与叶缘清晰，远处仍可辨细节。"
+    },
+    {
+      "id": "R005",
+      "result": "fail",
+      "region": "全图及前景花叶",
+      "evidence": "前景叶脉与花瓣线条比参考更硬、更醒目，材质表达有刻线化偏移。"
+    },
+    {
+      "id": "R006",
+      "result": "pass",
+      "region": "全图对应规则区域",
+      "evidence": "花木建筑细密，天空仍相对安静。"
+    },
+    {
+      "id": "R007",
+      "result": "pass",
+      "region": "全图对应规则区域",
+      "evidence": "边缘植物框景、前中后叠层可见。"
+    },
+    {
+      "id": "R008",
+      "result": "pass",
+      "region": "全图对应规则区域",
+      "evidence": "建筑环境主导，人物仍为小尺度叙事点。"
+    },
+    {
+      "id": "R009",
+      "result": "pass",
+      "region": "全图对应规则区域",
+      "evidence": "建筑重复结构与植物有机曲线并存。"
+    }
+  ]
+}

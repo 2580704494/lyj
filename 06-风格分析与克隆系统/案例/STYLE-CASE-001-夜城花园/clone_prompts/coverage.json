@@ -1,0 +1,90 @@
+{
+  "system_version": "1.0.0",
+  "schema_version": "1.0",
+  "profile_id": "STYLE-NIGHTGARDEN-001",
+  "profile_version": "0.1.0",
+  "task_id": "TASK-NIGHTGARDEN-CLONE",
+  "task_mode": "instance",
+  "source_digest": "9b086dfbfd39f119d286dc1962cc0edaf05088a7314d56d99b00f2ba0c5cd43d",
+  "export_status": "ready",
+  "illustrative": false,
+  "image_status": "not_generated",
+  "semantic_equivalence": "not_checked",
+  "pending": [],
+  "active_rule_ids": [
+    "R001",
+    "R002",
+    "R003",
+    "R004",
+    "R005",
+    "R006",
+    "R007",
+    "R008",
+    "R009"
+  ],
+  "inactive_rule_ids": [],
+  "unknown_rule_ids": [],
+  "coverage": {
+    "01_prompt_zh.json": {
+      "style_rules": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R009",
+        "R007",
+        "R008"
+      ],
+      "task_requirements": []
+    },
+    "02_prompt_en.json": {
+      "style_rules": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R009",
+        "R007",
+        "R008"
+      ],
+      "task_requirements": []
+    },
+    "03_prompt_zh_simple.txt": {
+      "style_rules": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R009",
+        "R007",
+        "R008"
+      ],
+      "task_requirements": []
+    },
+    "04_prompt_en_natural.txt": {
+      "style_rules": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R009",
+        "R007",
+        "R008"
+      ],
+      "task_requirements": []
+    }
+  },
+  "reuse": "Edit task and recompile. Do not silently alter core rules.",
+  "warnings": [
+    "Bilingual semantic equivalence requires review; structural checks do not prove it.",
+    "Image fidelity is not evaluated by this tool."
+  ]
+}
