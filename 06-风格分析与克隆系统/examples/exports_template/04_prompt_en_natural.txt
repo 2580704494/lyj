@@ -1,0 +1,11 @@
+SC-IMG DEMO-PAPERCUT@0.1.0 | draft | cc0c625facfa448f4f022bde1e9b1af5d62ade79d23fa464a65d3604bd799666
+
+[ILLUSTRATIVE TEST DATA; NOT AN EXTRACTED STYLE]
+[DRAFT; UNRESOLVED ITEMS; NO IMAGE VALIDATION]
+Theme: {{theme}}; subjects: {{subjects}}; actions and state: {{actions_and_state}}; environment: {{environment}}.
+[R001] MUST：Build forms from layered paper-cut-like flat color shapes without photorealistic surface reflections. Subject content may change; preserve the formal relationship specified by this rule.
+[R002] MUST：Use definite hard edges for principal silhouettes and express local occlusion through boundaries between color shapes. Subject content may change; preserve the formal relationship specified by this rule.
+[R003] MUST：Allow vivid saturated colors and maintain hierarchy through value differences between regions without fixing the colors of specific objects. Subject content may change; preserve the formal relationship specified by this rule.
+[R004] When shot_type is wide: MUST：In wide views, simplify distant areas into fewer large color shapes while retaining readable spatial layers. Subject content may change; preserve the formal relationship specified by this rule.
+[R005] When text_mode is required: MUST：When text is required, preserve exact glyphs and align their edge treatment with the hard-edged color-shape language. Subject content may change; preserve the formal relationship specified by this rule.
+Unresolved items: ILLUSTRATIVE: invented test data, not image extraction; Profile remains draft

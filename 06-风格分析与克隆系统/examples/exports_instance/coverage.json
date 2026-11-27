@@ -1,0 +1,78 @@
+{
+  "system_version": "1.0.0",
+  "schema_version": "1.0",
+  "profile_id": "DEMO-PAPERCUT",
+  "profile_version": "0.1.0",
+  "task_id": "TASK-DEMO",
+  "task_mode": "instance",
+  "source_digest": "4deaad8adc500996d1f38dd373b1bc1ad369788bbf26a5c8d6496c184c0ee684",
+  "export_status": "draft",
+  "illustrative": true,
+  "image_status": "not_generated",
+  "semantic_equivalence": "not_checked",
+  "pending": [
+    "ILLUSTRATIVE: invented test data, not image extraction",
+    "Profile remains draft"
+  ],
+  "active_rule_ids": [
+    "R001",
+    "R002",
+    "R003",
+    "R004"
+  ],
+  "inactive_rule_ids": [
+    "R005"
+  ],
+  "unknown_rule_ids": [],
+  "coverage": {
+    "01_prompt_zh.json": {
+      "style_rules": [
+        "R001",
+        "R002",
+        "R003",
+        "R004"
+      ],
+      "task_requirements": [
+        "T001"
+      ]
+    },
+    "02_prompt_en.json": {
+      "style_rules": [
+        "R001",
+        "R002",
+        "R003",
+        "R004"
+      ],
+      "task_requirements": [
+        "T001"
+      ]
+    },
+    "03_prompt_zh_simple.txt": {
+      "style_rules": [
+        "R001",
+        "R002",
+        "R003",
+        "R004"
+      ],
+      "task_requirements": [
+        "T001"
+      ]
+    },
+    "04_prompt_en_natural.txt": {
+      "style_rules": [
+        "R001",
+        "R002",
+        "R003",
+        "R004"
+      ],
+      "task_requirements": [
+        "T001"
+      ]
+    }
+  },
+  "reuse": "Edit task and recompile. Do not silently alter core rules.",
+  "warnings": [
+    "Bilingual semantic equivalence requires review; structural checks do not prove it.",
+    "Image fidelity is not evaluated by this tool."
+  ]
+}

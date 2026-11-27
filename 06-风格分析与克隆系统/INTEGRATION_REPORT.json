@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-26",
+  "software_unit_tests": {
+    "executed": 32,
+    "passed": 32
+  },
+  "integration_checks": {
+    "release_cli_schema_and_semantics": true,
+    "release_cli_matches_packaged_four_exports": true,
+    "existing_exports_not_overwritten": true,
+    "no_image_cannot_pass": true,
+    "strict_json_cli": true,
+    "web_entry_complete_and_same_as_repository": true,
+    "all_json_files_parse": true
+  },
+  "visual_model_tests": "not_run",
+  "persistent_memory_tests": "not_run",
+  "remote_repository": "not_published"
+}

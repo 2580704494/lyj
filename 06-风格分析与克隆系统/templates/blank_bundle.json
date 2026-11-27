@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "system_version": "1.0.0",
+  "profile": {
+    "id": "STYLE-NEW",
+    "version": "0.1.0",
+    "parent": null,
+    "name": {
+      "zh": "待提取风格",
+      "en": "Style pending extraction"
+    },
+    "status": "draft",
+    "illustrative": false,
+    "dimensions": {
+      "identity": {
+        "state": "pending",
+        "note": {
+          "zh": "待观察",
+          "en": "Pending observation"
+        }
+      },
+      "color": {
+        "state": "pending",
+        "note": {
+          "zh": "待观察",
+          "en": "Pending observation"
+        }
+      },
+      "light": {
+        "state": "pending",
+        "note": {
+          "zh": "待观察",
+          "en": "Pending observation"
+        }
+      },
+      "composition": {
+        "state": "pending",
+        "note": {
+          "zh": "待观察",
+          "en": "Pending observation"
+        }
+      },
+      "scale": {
+        "state": "pending",
+        "note": {
+          "zh": "待观察",
+          "en": "Pending observation"
+        }
+      },
+      "shape": {
+        "state": "pending",
+        "note": {
+          "zh": "待观察",
+          "en": "Pending observation"
+        }
+      },
+      "render": {
+        "state": "pending",
+        "note": {
+          "zh": "待观察",
+          "en": "Pending observation"
+        }
+      },
+      "edge": {
+        "state": "pending",
+        "note": {
+          "zh": "待观察",
+          "en": "Pending observation"
+        }
+      },
+      "finish": {
+        "state": "pending",
+        "note": {
+          "zh": "待观察",
+          "en": "Pending observation"
+        }
+      },
+      "texture": {
+        "state": "pending",
+        "note": {
+          "zh": "待观察",
+          "en": "Pending observation"
+        }
+      },
+      "density": {
+        "state": "pending",
+        "note": {
+          "zh": "待观察",
+          "en": "Pending observation"
+        }
+      },
+      "anchor": {
+        "state": "pending",
+        "note": {
+          "zh": "待观察",
+          "en": "Pending observation"
+        }
+      },
+      "tension": {
+        "state": "pending",
+        "note": {
+          "zh": "待观察",
+          "en": "Pending observation"
+        }
+      }
+    },
+    "references": [],
+    "evidence": [],
+    "rules": [],
+    "unresolved": [
+      "尚未提供参考和规则；此文件只是填写起点。"
+    ],
+    "validation_records": []
+  },
+  "task": {
+    "id": "TASK-TEMPLATE",
+    "mode": "template",
+    "content": {
+      "zh": "主题：{{主题}}；主体：{{主体}}；动作与状态：{{动作与状态}}；场景：{{场景}}。",
+      "en": "Theme: {{theme}}; subjects: {{subjects}}; actions and state: {{actions_and_state}}; environment: {{environment}}."
+    },
+    "context": {
+      "subject_kind": "unknown",
+      "scene_kind": "unknown",
+      "shot_type": "unknown",
+      "text_mode": "unknown"
+    },
+    "requirements": [],
+    "unresolved": []
+  }
+}

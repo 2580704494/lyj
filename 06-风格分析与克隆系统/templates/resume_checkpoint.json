@@ -1,0 +1,18 @@
+{
+  "system_version": "1.0.0",
+  "schema_version": "1.0",
+  "load_status": "partial",
+  "mode": "RESUME",
+  "profile_id": null,
+  "profile_version": null,
+  "spec_source": null,
+  "bundle_source": null,
+  "bundle_digest": null,
+  "unresolved": [
+    "填写可访问的完整规范及bundle位置；仅有摘要不能恢复精确规则。"
+  ],
+  "last_exports_source": null,
+  "last_image_source": null,
+  "last_review_source": null,
+  "integrity": "not_checked"
+}

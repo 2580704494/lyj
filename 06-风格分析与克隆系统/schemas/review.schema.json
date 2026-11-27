@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SC-IMG image review 1.0",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "source_digest": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "image_status": {
+      "type": "string",
+      "enum": [
+        "not_generated",
+        "unreviewed",
+        "reviewed"
+      ]
+    },
+    "image_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_-]*$"
+          },
+          "result": {
+            "type": "string",
+            "enum": [
+              "pass",
+              "fail",
+              "unknown",
+              "not_applicable"
+            ]
+          },
+          "region": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "result",
+          "region",
+          "evidence"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "schema_version",
+    "source_digest",
+    "image_status",
+    "image_ref",
+    "checks"
+  ],
+  "additionalProperties": false
+}

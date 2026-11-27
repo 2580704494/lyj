@@ -1,0 +1,27 @@
+SC-IMG 1.0.0｜仓库启动入口
+
+给能读取仓库文件的大模型：
+用户要求启动风格分析和克隆系统时，依次完整读取：
+1. system/CORE.txt
+2. system/OPERATIONS.txt
+3. schemas/bundle.schema.json
+如需审计实际成图，再读取schemas/review.schema.json。
+如用户提供已有风格档案，读取该档案并核对system/schema/profile版本；不要默认选用examples。
+读取至两份规范结束标记，确认规则层级、十三维、主题适配、四版输出和审计流程齐全，再按CORE给简短启动回执。
+缺失文件或内容截断时报告partial，指出具体缺失项。没有图片时进入ready；不把examples的自拟风格当用户风格。
+
+本模块部署于 2580704494/lyj 的 06-风格分析与克隆系统。仓库总入口为上一级 START_HERE.txt。
+仓库使用时还须读取本目录的逐步操作指南.md、仓库联动协议.md；信息图按协议加载相关模块。
+调用文字：
+“读取仓库根目录START_HERE.txt（或本模块START_HERE.txt），启动风格分析和克隆系统。”
+
+普通聊天模型无法读取仓库时，上传WEB_START.txt并发送同一启动口令。
+记忆场景参见MEMORY_CARD.txt；完整使用说明参见README.txt。
+
+可选本地工具（Python 3.10或更高，仅标准库）：
+python tools/scimg.py check examples/demo_bundle.json
+python tools/scimg.py compile examples/demo_bundle.json --out work/demo_exports --draft
+python tools/scimg.py review examples/demo_bundle.json examples/demo_review.json
+python tools/scimg.py verify-package .
+python -m unittest discover -s tests -v
+演示档案为illustrative，必须带--draft，不可用于宣称真实风格提取或成图通过。

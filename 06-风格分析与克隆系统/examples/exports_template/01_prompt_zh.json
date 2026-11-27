@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "system_version": "1.0.0",
+    "schema_version": "1.0",
+    "profile_id": "DEMO-PAPERCUT",
+    "profile_version": "0.1.0",
+    "task_id": "TASK-TEMPLATE",
+    "task_mode": "template",
+    "source_digest": "cc0c625facfa448f4f022bde1e9b1af5d62ade79d23fa464a65d3604bd799666",
+    "export_status": "draft",
+    "illustrative": true,
+    "image_status": "not_generated",
+    "semantic_equivalence": "not_checked",
+    "pending": [
+      "ILLUSTRATIVE: invented test data, not image extraction",
+      "Profile remains draft"
+    ]
+  },
+  "language": "zh",
+  "content": "主题：{{主题}}；主体：{{主体}}；动作与状态：{{动作与状态}}；场景：{{场景}}。",
+  "context": {
+    "subject_kind": "unknown",
+    "scene_kind": "unknown",
+    "shot_type": "unknown",
+    "text_mode": "unknown"
+  },
+  "style_rules": [
+    {
+      "id": "R001",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "以分层剪纸式平面色块建立形体，不引入写实表面反射。",
+      "variation": "主体内容可变；保持本条指定的形式关系。",
+      "check": "检查实际输出是否呈现本条指定的关系。"
+    },
+    {
+      "id": "R002",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "主要轮廓使用明确硬边，局部遮挡关系通过色块边界表达。",
+      "variation": "主体内容可变；保持本条指定的形式关系。",
+      "check": "检查实际输出是否呈现本条指定的关系。"
+    },
+    {
+      "id": "R003",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "允许鲜明饱和色，以区域间明度差维持主次层级，不强制特定物体颜色。",
+      "variation": "主体内容可变；保持本条指定的形式关系。",
+      "check": "检查实际输出是否呈现本条指定的关系。"
+    },
+    {
+      "id": "R004",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "shot_type": [
+          "wide"
+        ]
+      },
+      "instruction": "远景以较少的大色块概括，保留可识别的空间层级。",
+      "variation": "主体内容可变；保持本条指定的形式关系。",
+      "check": "检查实际输出是否呈现本条指定的关系。"
+    },
+    {
+      "id": "R005",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "text_mode": [
+          "required"
+        ]
+      },
+      "instruction": "出现文字时保证字形准确，并使字的边缘与硬边色块语言协调。",
+      "variation": "主体内容可变；保持本条指定的形式关系。",
+      "check": "检查实际输出是否呈现本条指定的关系。"
+    }
+  ],
+  "task_requirements": []
+}

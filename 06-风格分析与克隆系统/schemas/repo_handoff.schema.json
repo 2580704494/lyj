@@ -1,0 +1,322 @@
+{
+  "type": "object",
+  "properties": {
+    "handoff_version": {
+      "const": "1.0",
+      "type": "string"
+    },
+    "task": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]*$"
+        },
+        "mode": {
+          "type": "string",
+          "enum": [
+            "template",
+            "instance"
+          ]
+        },
+        "content": {
+          "type": "object",
+          "properties": {
+            "zh": {
+              "type": "string",
+              "minLength": 1
+            },
+            "en": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "zh",
+            "en"
+          ],
+          "additionalProperties": false
+        },
+        "context": {
+          "type": "object",
+          "properties": {
+            "subject_kind": {
+              "type": "string",
+              "enum": [
+                "human",
+                "animal",
+                "object",
+                "architecture",
+                "landscape",
+                "abstract",
+                "mixed",
+                "unknown"
+              ]
+            },
+            "scene_kind": {
+              "type": "string",
+              "enum": [
+                "interior",
+                "exterior",
+                "studio",
+                "none",
+                "mixed",
+                "unknown"
+              ]
+            },
+            "shot_type": {
+              "type": "string",
+              "enum": [
+                "close",
+                "medium",
+                "wide",
+                "flat",
+                "unknown"
+              ]
+            },
+            "text_mode": {
+              "type": "string",
+              "enum": [
+                "required",
+                "forbidden",
+                "optional",
+                "unknown"
+              ]
+            }
+          },
+          "required": [
+            "subject_kind",
+            "scene_kind",
+            "shot_type",
+            "text_mode"
+          ],
+          "additionalProperties": false
+        },
+        "requirements": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_-]*$"
+              },
+              "priority": {
+                "type": "string",
+                "enum": [
+                  "must",
+                  "should",
+                  "may"
+                ]
+              },
+              "instruction": {
+                "type": "object",
+                "properties": {
+                  "zh": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "en": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "zh",
+                  "en"
+                ],
+                "additionalProperties": false
+              },
+              "check": {
+                "type": "object",
+                "properties": {
+                  "zh": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "en": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "zh",
+                  "en"
+                ],
+                "additionalProperties": false
+              },
+              "conflicts_with": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Z][A-Z0-9_-]*$"
+                },
+                "minItems": 0,
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "id",
+              "priority",
+              "instruction",
+              "check",
+              "conflicts_with"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        },
+        "unresolved": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "id",
+        "mode",
+        "content",
+        "context",
+        "requirements",
+        "unresolved"
+      ],
+      "additionalProperties": false
+    },
+    "modules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "enum": [
+              "01",
+              "02",
+              "03",
+              "04",
+              "05"
+            ],
+            "type": "string"
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "source",
+          "reason"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^T[A-Za-z0-9_-]+$"
+          },
+          "module": {
+            "enum": [
+              "01",
+              "02",
+              "03",
+              "04",
+              "05"
+            ],
+            "type": "string"
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "priority": {
+            "const": "must",
+            "type": "string"
+          },
+          "instruction": {
+            "type": "object",
+            "properties": {
+              "zh": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "zh",
+              "en"
+            ],
+            "additionalProperties": false
+          },
+          "check": {
+            "type": "object",
+            "properties": {
+              "zh": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "zh",
+              "en"
+            ],
+            "additionalProperties": false
+          },
+          "conflicts_with": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "id",
+          "module",
+          "source",
+          "priority",
+          "instruction",
+          "check",
+          "conflicts_with"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "unresolved": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "required": [
+    "handoff_version",
+    "task",
+    "modules",
+    "constraints",
+    "unresolved"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LYJ repository handoff 1.0"
+}

@@ -1,0 +1,124 @@
+{
+  "handoff_version": "1.0",
+  "task": {
+    "id": "TASK-SYNTHETIC-ISOTYPE",
+    "mode": "instance",
+    "content": {
+      "zh": "自拟练习：用等大纸杯图符比较 A 组 30 个与 B 组 50 个回收纸杯；每个图符代表 10 个，分行标注并写出图例。",
+      "en": "Synthetic exercise: compare 30 recycled paper cups in group A with 50 in group B using equal-sized cup icons; each icon represents 10 cups, with labeled rows and a legend."
+    },
+    "context": {
+      "subject_kind": "object",
+      "scene_kind": "none",
+      "shot_type": "flat",
+      "text_mode": "required"
+    },
+    "requirements": [],
+    "unresolved": []
+  },
+  "modules": [
+    {
+      "id": "01",
+      "source": "01-信息图形数据逻辑/README.md",
+      "reason": "明确 A/B 分类与对象归属"
+    },
+    {
+      "id": "02",
+      "source": "02-信息图形类型案例/README.md",
+      "reason": "选择比较型表现"
+    },
+    {
+      "id": "03",
+      "source": "03-ISOTYPE信息图/README.md",
+      "reason": "等大图符计数"
+    },
+    {
+      "id": "04",
+      "source": "04-统计图形分析/统计图形分析模板.md",
+      "reason": "复算数值和单位"
+    },
+    {
+      "id": "05",
+      "source": "05-Gestalt视觉组织原则/README.md",
+      "reason": "检查行分组与图例可读"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "TREPO001",
+      "module": "01",
+      "source": "01-信息图形数据逻辑/README.md",
+      "priority": "must",
+      "instruction": {
+        "zh": "A 与 B 保持为两组，所有图符归入正确类别，不混合行。",
+        "en": "Keep A and B as distinct groups; assign every icon to the correct group without mixing rows."
+      },
+      "check": {
+        "zh": "核对标签与图符的组别归属。",
+        "en": "Check that labels and icons belong to the correct groups."
+      },
+      "conflicts_with": []
+    },
+    {
+      "id": "TREPO002",
+      "module": "02",
+      "source": "02-信息图形类型案例/README.md",
+      "priority": "must",
+      "instruction": {
+        "zh": "使用可直接对读的两行比较布局，不把两组画成无区分的装饰场景。",
+        "en": "Use two comparable rows and keep the groups distinct."
+      },
+      "check": {
+        "zh": "检查两组是否可以逐行比较。",
+        "en": "Check that the two rows can be directly compared."
+      },
+      "conflicts_with": []
+    },
+    {
+      "id": "TREPO003",
+      "module": "03",
+      "source": "03-ISOTYPE信息图/README.md",
+      "priority": "must",
+      "instruction": {
+        "zh": "A 行恰好 3 个、B 行恰好 5 个等大完整纸杯图符；同类图符外形一致，不以放大图符表达数量。",
+        "en": "Show exactly 3 whole cup icons in row A and 5 in row B; use equal-sized icons of the same shape and do not encode quantity by enlarging them."
+      },
+      "check": {
+        "zh": "逐个计数并比较图符大小与轮廓。",
+        "en": "Count each row and compare icon sizes and silhouettes."
+      },
+      "conflicts_with": []
+    },
+    {
+      "id": "TREPO004",
+      "module": "04",
+      "source": "04-统计图形分析/统计图形分析模板.md",
+      "priority": "must",
+      "instruction": {
+        "zh": "保留 A=30、B=50 的自拟数据和每符=10 个的图例；3×10=30，5×10=50。不得改数或把缺测当零。",
+        "en": "Preserve the synthetic values A=30 and B=50 and the legend of 10 cups per icon; 3×10=30 and 5×10=50. Do not change values or treat missing data as zero."
+      },
+      "check": {
+        "zh": "核对数值、单位、图例与乘法复算结果。",
+        "en": "Check values, units, legend and multiplication results."
+      },
+      "conflicts_with": []
+    },
+    {
+      "id": "TREPO005",
+      "module": "05",
+      "source": "05-Gestalt视觉组织原则/README.md",
+      "priority": "must",
+      "instruction": {
+        "zh": "标签贴近所属行，行间距大于行内图符间距，图例与背景清晰区分。",
+        "en": "Keep labels close to their rows, make the gap between rows larger than within-row icon gaps, and keep the legend distinct from the background."
+      },
+      "check": {
+        "zh": "检查误分组、标签遮挡和图例可读性。",
+        "en": "Check for incorrect grouping, obscured labels and an unreadable legend."
+      },
+      "conflicts_with": []
+    }
+  ],
+  "unresolved": []
+}

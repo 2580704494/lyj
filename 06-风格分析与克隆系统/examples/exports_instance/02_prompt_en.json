@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "system_version": "1.0.0",
+    "schema_version": "1.0",
+    "profile_id": "DEMO-PAPERCUT",
+    "profile_version": "0.1.0",
+    "task_id": "TASK-DEMO",
+    "task_mode": "instance",
+    "source_digest": "4deaad8adc500996d1f38dd373b1bc1ad369788bbf26a5c8d6496c184c0ee684",
+    "export_status": "draft",
+    "illustrative": true,
+    "image_status": "not_generated",
+    "semantic_equivalence": "not_checked",
+    "pending": [
+      "ILLUSTRATIVE: invented test data, not image extraction",
+      "Profile remains draft"
+    ]
+  },
+  "language": "en",
+  "content": "Depict a red fox walking across an urban plaza in a wide view, with no text in the image.",
+  "context": {
+    "subject_kind": "animal",
+    "scene_kind": "exterior",
+    "shot_type": "wide",
+    "text_mode": "forbidden"
+  },
+  "style_rules": [
+    {
+      "id": "R001",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Build forms from layered paper-cut-like flat color shapes without photorealistic surface reflections.",
+      "variation": "Subject content may change; preserve the formal relationship specified by this rule.",
+      "check": "Inspect the actual output for the relationship specified in this rule."
+    },
+    {
+      "id": "R002",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Use definite hard edges for principal silhouettes and express local occlusion through boundaries between color shapes.",
+      "variation": "Subject content may change; preserve the formal relationship specified by this rule.",
+      "check": "Inspect the actual output for the relationship specified in this rule."
+    },
+    {
+      "id": "R003",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Allow vivid saturated colors and maintain hierarchy through value differences between regions without fixing the colors of specific objects.",
+      "variation": "Subject content may change; preserve the formal relationship specified by this rule.",
+      "check": "Inspect the actual output for the relationship specified in this rule."
+    },
+    {
+      "id": "R004",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "shot_type": [
+          "wide"
+        ]
+      },
+      "instruction": "In wide views, simplify distant areas into fewer large color shapes while retaining readable spatial layers.",
+      "variation": "Subject content may change; preserve the formal relationship specified by this rule.",
+      "check": "Inspect the actual output for the relationship specified in this rule."
+    }
+  ],
+  "task_requirements": [
+    {
+      "id": "T001",
+      "priority": "must",
+      "instruction": "The subject must be a red fox and must not be replaced by a human.",
+      "check": "Inspect the visible subject species."
+    }
+  ]
+}

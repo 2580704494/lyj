@@ -1,0 +1,24 @@
+{
+  "handoff_version": "1.0",
+  "task": {
+    "id": "TASK-NEW",
+    "mode": "template",
+    "content": {
+      "zh": "{{新主题及信息要求}}",
+      "en": "{{NEW_SUBJECT_AND_INFORMATION_REQUIREMENTS}}"
+    },
+    "context": {
+      "subject_kind": "unknown",
+      "scene_kind": "unknown",
+      "shot_type": "unknown",
+      "text_mode": "unknown"
+    },
+    "requirements": [],
+    "unresolved": [
+      "填写新任务、相关模块、来源和约束后再正式使用。"
+    ]
+  },
+  "modules": [],
+  "constraints": [],
+  "unresolved": []
+}

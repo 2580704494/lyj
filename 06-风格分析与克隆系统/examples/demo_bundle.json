@@ -1,0 +1,300 @@
+{
+  "schema_version": "1.0",
+  "system_version": "1.0.0",
+  "profile": {
+    "id": "DEMO-PAPERCUT",
+    "version": "0.1.0",
+    "parent": null,
+    "name": {
+      "zh": "自拟剪纸式测试档案（非提取结果）",
+      "en": "Invented paper-cut test profile (not an extraction result)"
+    },
+    "status": "draft",
+    "illustrative": true,
+    "dimensions": {
+      "identity": {
+        "state": "active",
+        "note": {
+          "zh": "以下为自拟规则，用于编译测试，不是参考图分析。",
+          "en": "These invented rules test compilation; they were not extracted from a reference image."
+        }
+      },
+      "color": {
+        "state": "active",
+        "note": {
+          "zh": "以下为自拟规则，用于编译测试，不是参考图分析。",
+          "en": "These invented rules test compilation; they were not extracted from a reference image."
+        }
+      },
+      "light": {
+        "state": "pending",
+        "note": {
+          "zh": "演示未评估此维度。",
+          "en": "This dimension has not been assessed in this demonstration."
+        }
+      },
+      "composition": {
+        "state": "pending",
+        "note": {
+          "zh": "演示未评估此维度。",
+          "en": "This dimension has not been assessed in this demonstration."
+        }
+      },
+      "scale": {
+        "state": "pending",
+        "note": {
+          "zh": "演示未评估此维度。",
+          "en": "This dimension has not been assessed in this demonstration."
+        }
+      },
+      "shape": {
+        "state": "pending",
+        "note": {
+          "zh": "演示未评估此维度。",
+          "en": "This dimension has not been assessed in this demonstration."
+        }
+      },
+      "render": {
+        "state": "active",
+        "note": {
+          "zh": "以下为自拟规则，用于编译测试，不是参考图分析。",
+          "en": "These invented rules test compilation; they were not extracted from a reference image."
+        }
+      },
+      "edge": {
+        "state": "active",
+        "note": {
+          "zh": "以下为自拟规则，用于编译测试，不是参考图分析。",
+          "en": "These invented rules test compilation; they were not extracted from a reference image."
+        }
+      },
+      "finish": {
+        "state": "pending",
+        "note": {
+          "zh": "演示未评估此维度。",
+          "en": "This dimension has not been assessed in this demonstration."
+        }
+      },
+      "texture": {
+        "state": "pending",
+        "note": {
+          "zh": "演示未评估此维度。",
+          "en": "This dimension has not been assessed in this demonstration."
+        }
+      },
+      "density": {
+        "state": "active",
+        "note": {
+          "zh": "以下为自拟规则，用于编译测试，不是参考图分析。",
+          "en": "These invented rules test compilation; they were not extracted from a reference image."
+        }
+      },
+      "anchor": {
+        "state": "pending",
+        "note": {
+          "zh": "演示未评估此维度。",
+          "en": "This dimension has not been assessed in this demonstration."
+        }
+      },
+      "tension": {
+        "state": "pending",
+        "note": {
+          "zh": "演示未评估此维度。",
+          "en": "This dimension has not been assessed in this demonstration."
+        }
+      }
+    },
+    "references": [
+      {
+        "id": "REF001",
+        "role": "brief",
+        "source": "Synthetic fixture authored for software testing; no image supplied.",
+        "seen": false
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E001",
+        "reference_id": "REF001",
+        "provenance": "illustrative",
+        "region": "not_applicable",
+        "observation": {
+          "zh": "为测试硬边、高饱和和含字条件而自拟。",
+          "en": "Invented to test hard edges, saturated colors, and conditional text requirements."
+        }
+      }
+    ],
+    "rules": [
+      {
+        "id": "R001",
+        "dimension": "render",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "以分层剪纸式平面色块建立形体，不引入写实表面反射。",
+          "en": "Build forms from layered paper-cut-like flat color shapes without photorealistic surface reflections."
+        },
+        "variation": {
+          "zh": "主体内容可变；保持本条指定的形式关系。",
+          "en": "Subject content may change; preserve the formal relationship specified by this rule."
+        },
+        "check": {
+          "zh": "检查实际输出是否呈现本条指定的关系。",
+          "en": "Inspect the actual output for the relationship specified in this rule."
+        },
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "low",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R002",
+        "dimension": "edge",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "主要轮廓使用明确硬边，局部遮挡关系通过色块边界表达。",
+          "en": "Use definite hard edges for principal silhouettes and express local occlusion through boundaries between color shapes."
+        },
+        "variation": {
+          "zh": "主体内容可变；保持本条指定的形式关系。",
+          "en": "Subject content may change; preserve the formal relationship specified by this rule."
+        },
+        "check": {
+          "zh": "检查实际输出是否呈现本条指定的关系。",
+          "en": "Inspect the actual output for the relationship specified in this rule."
+        },
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "low",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R003",
+        "dimension": "color",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "允许鲜明饱和色，以区域间明度差维持主次层级，不强制特定物体颜色。",
+          "en": "Allow vivid saturated colors and maintain hierarchy through value differences between regions without fixing the colors of specific objects."
+        },
+        "variation": {
+          "zh": "主体内容可变；保持本条指定的形式关系。",
+          "en": "Subject content may change; preserve the formal relationship specified by this rule."
+        },
+        "check": {
+          "zh": "检查实际输出是否呈现本条指定的关系。",
+          "en": "Inspect the actual output for the relationship specified in this rule."
+        },
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "low",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R004",
+        "dimension": "density",
+        "scope": "conditional",
+        "priority": "must",
+        "instruction": {
+          "zh": "远景以较少的大色块概括，保留可识别的空间层级。",
+          "en": "In wide views, simplify distant areas into fewer large color shapes while retaining readable spatial layers."
+        },
+        "variation": {
+          "zh": "主体内容可变；保持本条指定的形式关系。",
+          "en": "Subject content may change; preserve the formal relationship specified by this rule."
+        },
+        "check": {
+          "zh": "检查实际输出是否呈现本条指定的关系。",
+          "en": "Inspect the actual output for the relationship specified in this rule."
+        },
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "low",
+        "disposition": "confirmed",
+        "when": {
+          "shot_type": [
+            "wide"
+          ]
+        },
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R005",
+        "dimension": "edge",
+        "scope": "conditional",
+        "priority": "must",
+        "instruction": {
+          "zh": "出现文字时保证字形准确，并使字的边缘与硬边色块语言协调。",
+          "en": "When text is required, preserve exact glyphs and align their edge treatment with the hard-edged color-shape language."
+        },
+        "variation": {
+          "zh": "主体内容可变；保持本条指定的形式关系。",
+          "en": "Subject content may change; preserve the formal relationship specified by this rule."
+        },
+        "check": {
+          "zh": "检查实际输出是否呈现本条指定的关系。",
+          "en": "Inspect the actual output for the relationship specified in this rule."
+        },
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "low",
+        "disposition": "confirmed",
+        "when": {
+          "text_mode": [
+            "required"
+          ]
+        },
+        "requires": [],
+        "excludes": []
+      }
+    ],
+    "unresolved": [],
+    "validation_records": []
+  },
+  "task": {
+    "id": "TASK-DEMO",
+    "mode": "instance",
+    "content": {
+      "zh": "绘制一只在城市广场行走的红狐狸，远景，画面不出现文字。",
+      "en": "Depict a red fox walking across an urban plaza in a wide view, with no text in the image."
+    },
+    "context": {
+      "subject_kind": "animal",
+      "scene_kind": "exterior",
+      "shot_type": "wide",
+      "text_mode": "forbidden"
+    },
+    "requirements": [
+      {
+        "id": "T001",
+        "priority": "must",
+        "instruction": {
+          "zh": "主体必须是红狐狸，不得替换成人物。",
+          "en": "The subject must be a red fox and must not be replaced by a human."
+        },
+        "check": {
+          "zh": "检查可见主体种类。",
+          "en": "Inspect the visible subject species."
+        },
+        "conflicts_with": []
+      }
+    ],
+    "unresolved": []
+  }
+}

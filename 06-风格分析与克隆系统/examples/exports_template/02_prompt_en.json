@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "system_version": "1.0.0",
+    "schema_version": "1.0",
+    "profile_id": "DEMO-PAPERCUT",
+    "profile_version": "0.1.0",
+    "task_id": "TASK-TEMPLATE",
+    "task_mode": "template",
+    "source_digest": "cc0c625facfa448f4f022bde1e9b1af5d62ade79d23fa464a65d3604bd799666",
+    "export_status": "draft",
+    "illustrative": true,
+    "image_status": "not_generated",
+    "semantic_equivalence": "not_checked",
+    "pending": [
+      "ILLUSTRATIVE: invented test data, not image extraction",
+      "Profile remains draft"
+    ]
+  },
+  "language": "en",
+  "content": "Theme: {{theme}}; subjects: {{subjects}}; actions and state: {{actions_and_state}}; environment: {{environment}}.",
+  "context": {
+    "subject_kind": "unknown",
+    "scene_kind": "unknown",
+    "shot_type": "unknown",
+    "text_mode": "unknown"
+  },
+  "style_rules": [
+    {
+      "id": "R001",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Build forms from layered paper-cut-like flat color shapes without photorealistic surface reflections.",
+      "variation": "Subject content may change; preserve the formal relationship specified by this rule.",
+      "check": "Inspect the actual output for the relationship specified in this rule."
+    },
+    {
+      "id": "R002",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Use definite hard edges for principal silhouettes and express local occlusion through boundaries between color shapes.",
+      "variation": "Subject content may change; preserve the formal relationship specified by this rule.",
+      "check": "Inspect the actual output for the relationship specified in this rule."
+    },
+    {
+      "id": "R003",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Allow vivid saturated colors and maintain hierarchy through value differences between regions without fixing the colors of specific objects.",
+      "variation": "Subject content may change; preserve the formal relationship specified by this rule.",
+      "check": "Inspect the actual output for the relationship specified in this rule."
+    },
+    {
+      "id": "R004",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "shot_type": [
+          "wide"
+        ]
+      },
+      "instruction": "In wide views, simplify distant areas into fewer large color shapes while retaining readable spatial layers.",
+      "variation": "Subject content may change; preserve the formal relationship specified by this rule.",
+      "check": "Inspect the actual output for the relationship specified in this rule."
+    },
+    {
+      "id": "R005",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "text_mode": [
+          "required"
+        ]
+      },
+      "instruction": "When text is required, preserve exact glyphs and align their edge treatment with the hard-edged color-shape language.",
+      "variation": "Subject content may change; preserve the formal relationship specified by this rule.",
+      "check": "Inspect the actual output for the relationship specified in this rule."
+    }
+  ],
+  "task_requirements": []
+}

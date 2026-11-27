@@ -1,0 +1,11 @@
+SC-IMG DEMO-PAPERCUT@0.1.0 | draft | 4deaad8adc500996d1f38dd373b1bc1ad369788bbf26a5c8d6496c184c0ee684
+
+[ILLUSTRATIVE TEST DATA; NOT AN EXTRACTED STYLE]
+[DRAFT; UNRESOLVED ITEMS; NO IMAGE VALIDATION]
+Depict a red fox walking across an urban plaza in a wide view, with no text in the image.
+[R001] MUST：Build forms from layered paper-cut-like flat color shapes without photorealistic surface reflections. Subject content may change; preserve the formal relationship specified by this rule.
+[R002] MUST：Use definite hard edges for principal silhouettes and express local occlusion through boundaries between color shapes. Subject content may change; preserve the formal relationship specified by this rule.
+[R003] MUST：Allow vivid saturated colors and maintain hierarchy through value differences between regions without fixing the colors of specific objects. Subject content may change; preserve the formal relationship specified by this rule.
+[R004] When shot_type is wide: MUST：In wide views, simplify distant areas into fewer large color shapes while retaining readable spatial layers. Subject content may change; preserve the formal relationship specified by this rule.
+[T001] MUST：The subject must be a red fox and must not be replaced by a human.
+Unresolved items: ILLUSTRATIVE: invented test data, not image extraction; Profile remains draft
