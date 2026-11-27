@@ -1,0 +1,36 @@
+{
+  "tool": "built-in image_gen",
+  "attempt": 1,
+  "reference_conditioning": true,
+  "generation_prompt": "generation_prompt.txt",
+  "output": "克隆样图_v1.png",
+  "audit": {
+    "result": "pass",
+    "failed_must": [],
+    "unknown_must": [],
+    "pending": [],
+    "non_must_findings": [],
+    "evidence_verification": "Record completeness checked only; actual pixels and statements require visual review."
+  },
+  "profile_status": "provisional",
+  "repository_status": "archived_by_user_request",
+  "review_scope": "本轮单图、同主题、附参考图生成的视觉定性审阅；不是独立测量或跨主题验证。",
+  "differences": [
+    "建筑布局更规整，部分色块与原图面积不同",
+    "部分拱洞轮廓较尖",
+    "天空海面颗粒组织略有不同"
+  ],
+  "content_review": {
+    "coastal_town": "pass",
+    "cropped_parasols": "pass",
+    "broad_clear_sky": "pass",
+    "yellow_beach_blue_sea": "pass",
+    "no_added_people_or_lettering": "pass"
+  },
+  "limitations": [
+    "未测试纯文字独立生成",
+    "未测试其他题材或模型",
+    "未进行精确取色、纹理测量或盲评",
+    "不以单次通过升级为通用 validated 档案"
+  ]
+}

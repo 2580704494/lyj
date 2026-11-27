@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "system_version": "1.0.0",
+    "schema_version": "1.0",
+    "profile_id": "STYLE-SUNNY-COAST-003",
+    "profile_version": "0.1.0",
+    "task_id": "TASK-COAST-CLONE",
+    "task_mode": "instance",
+    "source_digest": "a71cc042da8f88891d195a3f825952f1107fb264c51fec6806e4c072a9900b42",
+    "export_status": "ready",
+    "illustrative": false,
+    "image_status": "not_generated",
+    "semantic_equivalence": "not_checked",
+    "pending": []
+  },
+  "language": "en",
+  "content": "Portrait approximately 3:4 sunny seaside town: simplified colorful buildings and a tower on the left above a cream arched seawall, a vivid yellow beach and curved white surf around a cobalt bay, pale blue distant mountains and tiny white sails, overlapping cropped striped parasols in front and a broad clear sky. Recompose details without added text, logos, watermarks or people.",
+  "context": {
+    "subject_kind": "mixed",
+    "scene_kind": "exterior",
+    "shot_type": "wide",
+    "text_mode": "forbidden"
+  },
+  "style_rules": [
+    {
+      "id": "R001",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Simplify objects into clear geometric silhouettes and broad color shapes, retaining identifying features; avoid realistic microdetail and elaborate ornament.",
+      "variation": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version.",
+      "check": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+    },
+    {
+      "id": "R002",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Build broad cool-warm contrast with cyan, cobalt and vivid yellow, balance brightness with cream, and use smaller orange-red, coral and turquoise accents; keep color bright and saturated rather than muted sepia.",
+      "variation": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version.",
+      "check": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+    },
+    {
+      "id": "R003",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Use opaque flat fills and define form through adjoining color planes; avoid smooth 3D modeling, photographic reflections, impasto and watercolor bleeding.",
+      "variation": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version.",
+      "check": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+    },
+    {
+      "id": "R004",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Keep principal silhouettes crisp, separating them mainly through adjacent colors; use fine lines only for necessary small structures, without thick black outlines around every object.",
+      "variation": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version.",
+      "check": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+    },
+    {
+      "id": "R005",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Suggest illumination and shadow with a bright overall key and a few colored planes, limiting tonal steps; avoid complex cast shadows, specular highlights and volumetric light.",
+      "variation": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version.",
+      "check": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+    },
+    {
+      "id": "R006",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Add fine even matte print grain within broad color fields while preserving edges and color clarity; avoid coarse scratches, heavy aging and strong paper texture.",
+      "variation": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version.",
+      "check": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+    },
+    {
+      "id": "R007",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Contrast broad quiet fields with localized clusters of forms, using detail only for recognition and rhythm; avoid uniformly filling the picture with ornament or patterns.",
+      "variation": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version.",
+      "check": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+    },
+    {
+      "id": "R010",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Resolve principal silhouettes and joins between color shapes precisely, summarizing secondary structures with sparse repeated marks; retain deliberate graphic simplification rather than adding realistic detail.",
+      "variation": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version.",
+      "check": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+    },
+    {
+      "id": "R008",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "shot_type": [
+          "wide"
+        ]
+      },
+      "instruction": "In wide views, connect foreground and middle distance through a flowing curve or arc boundary, balancing compact clusters asymmetrically against open areas; subject placement may change.",
+      "variation": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version.",
+      "check": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+    },
+    {
+      "id": "R009",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "shot_type": [
+          "wide"
+        ]
+      },
+      "instruction": "In wide views, establish a scale gradient through substantially cropped foreground forms, middle-distance subjects and tiny distant markers; do not render everything at the same scale.",
+      "variation": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version.",
+      "check": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+    }
+  ],
+  "task_requirements": []
+}

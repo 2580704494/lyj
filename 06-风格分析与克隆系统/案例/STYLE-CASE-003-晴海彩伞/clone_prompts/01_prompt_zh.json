@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "system_version": "1.0.0",
+    "schema_version": "1.0",
+    "profile_id": "STYLE-SUNNY-COAST-003",
+    "profile_version": "0.1.0",
+    "task_id": "TASK-COAST-CLONE",
+    "task_mode": "instance",
+    "source_digest": "a71cc042da8f88891d195a3f825952f1107fb264c51fec6806e4c072a9900b42",
+    "export_status": "ready",
+    "illustrative": false,
+    "image_status": "not_generated",
+    "semantic_equivalence": "not_checked",
+    "pending": []
+  },
+  "language": "zh",
+  "content": "竖幅约3:4，晴朗滨海小镇；左侧简化彩色建筑与塔楼立于奶油色拱廊海墙上，鲜黄沙滩和白色弧形浪线环抱钴蓝海湾，远处浅蓝山形与小白帆，前景重叠裁切的彩条遮阳伞，大块天空。重新组织细节，无新增文字、标识、水印或人物。",
+  "context": {
+    "subject_kind": "mixed",
+    "scene_kind": "exterior",
+    "shot_type": "wide",
+    "text_mode": "forbidden"
+  },
+  "style_rules": [
+    {
+      "id": "R001",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "将对象概括为清晰几何轮廓和大色块，保留识别所需特征；避免写实微细节与繁复雕饰。",
+      "variation": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+      "check": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。"
+    },
+    {
+      "id": "R002",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "以青蓝、钴蓝与鲜明黄色建立大面积冷暖对比，奶白调节亮度，橙红、珊瑚粉和青绿作较小强调；保持明快饱和而非灰褐复古。",
+      "variation": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+      "check": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。"
+    },
+    {
+      "id": "R003",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "使用不透明平面铺色，以色面交界建立形体；避免光滑三维、摄影反射、厚涂和水彩晕染。",
+      "variation": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+      "check": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。"
+    },
+    {
+      "id": "R004",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "主轮廓保持清晰硬边，主要依靠相邻色块分离；仅在必要小结构使用细线，不给全体对象加粗黑描边。",
+      "variation": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+      "check": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。"
+    },
+    {
+      "id": "R005",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "以明亮底调和少量有色平面表示光照与暗面，控制明暗级数；不加复杂投影、镜面高光或体积光。",
+      "variation": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+      "check": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。"
+    },
+    {
+      "id": "R006",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "在大色面内加入细微均匀的哑光印刷颗粒，保留边缘和色彩纯度；避免粗糙刮痕、强烈做旧、厚重纸纹。",
+      "variation": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+      "check": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。"
+    },
+    {
+      "id": "R007",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "用大片安静色域对照局部密集形体，细节只服务识别和节奏；避免均匀铺满装饰或纹样。",
+      "variation": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+      "check": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。"
+    },
+    {
+      "id": "R010",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "精确处理主要轮廓和色块拼接，次要结构以少量重复符号概括；保留有意的图形简化，不补写实细节。",
+      "variation": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+      "check": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。"
+    },
+    {
+      "id": "R008",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "shot_type": [
+          "wide"
+        ]
+      },
+      "instruction": "远景以流畅曲线或弧形边界连接前中景，紧凑形体簇与开阔区域形成不对称平衡；允许主体位置改变。",
+      "variation": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+      "check": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。"
+    },
+    {
+      "id": "R009",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "shot_type": [
+          "wide"
+        ]
+      },
+      "instruction": "远景通过大幅裁切的近景形体、中景主体和极小远景标记建立尺度梯度；不把所有元素画成同一大小。",
+      "variation": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+      "check": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。"
+    }
+  ],
+  "task_requirements": []
+}

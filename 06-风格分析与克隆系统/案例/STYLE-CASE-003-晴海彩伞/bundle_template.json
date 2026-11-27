@@ -1,0 +1,506 @@
+{
+  "schema_version": "1.0",
+  "system_version": "1.0.0",
+  "profile": {
+    "id": "STYLE-SUNNY-COAST-003",
+    "version": "0.1.0",
+    "parent": null,
+    "name": {
+      "zh": "晴海彩伞·高饱和平面旅行海报",
+      "en": "Sunny coast: saturated flat-color travel poster"
+    },
+    "status": "provisional",
+    "illustrative": false,
+    "dimensions": {
+      "identity": {
+        "state": "active",
+        "note": {
+          "zh": "复古旅行海报式平面插画，不断言具体印刷工艺。",
+          "en": "Flat illustration with a vintage travel-poster character; no specific print process is asserted."
+        }
+      },
+      "color": {
+        "state": "active",
+        "note": {
+          "zh": "青蓝天空、钴蓝海面和鲜黄沙滩形成大色区，奶白与橙红色穿插。",
+          "en": "Cyan sky, cobalt sea and vivid yellow beach form large fields, punctuated by cream and orange-red."
+        }
+      },
+      "light": {
+        "state": "active",
+        "note": {
+          "zh": "拱洞内侧为橙色平面，立面大面积亮白，光感高度概括。",
+          "en": "Arch recesses are flat orange while large facade planes are bright cream-white, simplifying illumination."
+        }
+      },
+      "composition": {
+        "state": "active",
+        "note": {
+          "zh": "白色岸线弯曲连接前景与中景，左侧建筑群与右侧海面形成不对称平衡。",
+          "en": "A curved white shoreline links foreground and middle distance; left-side buildings balance open sea on the right."
+        }
+      },
+      "scale": {
+        "state": "active",
+        "note": {
+          "zh": "近处伞面巨大且被裁切，远处帆船小而概括。",
+          "en": "Foreground parasols are large and cropped, while distant boats are small and simplified."
+        }
+      },
+      "shape": {
+        "state": "active",
+        "note": {
+          "zh": "建筑由矩形、三角形和拱形概括，伞面为清晰扇形色块。",
+          "en": "Buildings are simplified into rectangles, triangles and arches; parasols use clear wedge-shaped panels."
+        }
+      },
+      "render": {
+        "state": "active",
+        "note": {
+          "zh": "主体通过平整色面区分，未见主导性写实渐层或笔触。",
+          "en": "Principal forms are differentiated by flat color planes without dominant realistic gradients or brush strokes."
+        }
+      },
+      "edge": {
+        "state": "active",
+        "note": {
+          "zh": "色块边缘清楚，栏杆有细暗线，但物体并未普遍黑描边。",
+          "en": "Color boundaries are clear; railings have thin dark lines, but objects are not generally outlined in black."
+        }
+      },
+      "finish": {
+        "state": "active",
+        "note": {
+          "zh": "窗户与海面标记数量克制，主要形体完成度高但细节简化。",
+          "en": "Windows and sea marks are restrained, with resolved main shapes and simplified details."
+        }
+      },
+      "texture": {
+        "state": "active",
+        "note": {
+          "zh": "大色面中可见细小颗粒，轮廓依然清晰。",
+          "en": "Fine grain is visible within broad color fields while contours remain clear."
+        }
+      },
+      "density": {
+        "state": "active",
+        "note": {
+          "zh": "天空和海面较简洁，窗洞和伞片集中在局部。",
+          "en": "Sky and sea are relatively quiet, with windows and parasol panels concentrated in clusters."
+        }
+      },
+      "anchor": {
+        "state": "active",
+        "note": {
+          "zh": "前景伞片、左侧塔楼、鲜黄沙滩与白色岸线共同引导注意。",
+          "en": "Foreground parasol panels, the left tower, yellow beach and white shoreline guide attention."
+        }
+      },
+      "tension": {
+        "state": "active",
+        "note": {
+          "zh": "冷蓝与暖黄、大近景与小远景、繁密簇与安静色域形成对照。",
+          "en": "Cool blue versus warm yellow, large near forms versus tiny distant marks, and dense clusters versus quiet fields create contrast."
+        }
+      }
+    },
+    "references": [
+      {
+        "id": "REF001",
+        "role": "style",
+        "source": "User-provided sunny seaside town and parasol illustration in this conversation; author, location and original medium unverified.",
+        "seen": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E001",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "房屋、拱洞、伞面",
+        "observation": {
+          "zh": "建筑由矩形、三角形和拱形概括，伞面为清晰扇形色块。",
+          "en": "Buildings are simplified into rectangles, triangles and arches; parasols use clear wedge-shaped panels."
+        }
+      },
+      {
+        "id": "E002",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "天空、海面、沙滩与伞",
+        "observation": {
+          "zh": "青蓝天空、钴蓝海面和鲜黄沙滩形成大色区，奶白与橙红色穿插。",
+          "en": "Cyan sky, cobalt sea and vivid yellow beach form large fields, punctuated by cream and orange-red."
+        }
+      },
+      {
+        "id": "E003",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "墙面、海面与伞片",
+        "observation": {
+          "zh": "主体通过平整色面区分，未见主导性写实渐层或笔触。",
+          "en": "Principal forms are differentiated by flat color planes without dominant realistic gradients or brush strokes."
+        }
+      },
+      {
+        "id": "E004",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "建筑边缘与栏杆",
+        "observation": {
+          "zh": "色块边缘清楚，栏杆有细暗线，但物体并未普遍黑描边。",
+          "en": "Color boundaries are clear; railings have thin dark lines, but objects are not generally outlined in black."
+        }
+      },
+      {
+        "id": "E005",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "拱洞内侧与立面",
+        "observation": {
+          "zh": "拱洞内侧为橙色平面，立面大面积亮白，光感高度概括。",
+          "en": "Arch recesses are flat orange while large facade planes are bright cream-white, simplifying illumination."
+        }
+      },
+      {
+        "id": "E006",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "天空、海面和暖色区域",
+        "observation": {
+          "zh": "大色面中可见细小颗粒，轮廓依然清晰。",
+          "en": "Fine grain is visible within broad color fields while contours remain clear."
+        }
+      },
+      {
+        "id": "E007",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "大天空海面与建筑伞群",
+        "observation": {
+          "zh": "天空和海面较简洁，窗洞和伞片集中在局部。",
+          "en": "Sky and sea are relatively quiet, with windows and parasol panels concentrated in clusters."
+        }
+      },
+      {
+        "id": "E008",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "弯曲岸线、前景伞与左侧城镇",
+        "observation": {
+          "zh": "白色岸线弯曲连接前景与中景，左侧建筑群与右侧海面形成不对称平衡。",
+          "en": "A curved white shoreline links foreground and middle distance; left-side buildings balance open sea on the right."
+        }
+      },
+      {
+        "id": "E009",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "底部伞面与远处帆船",
+        "observation": {
+          "zh": "近处伞面巨大且被裁切，远处帆船小而概括。",
+          "en": "Foreground parasols are large and cropped, while distant boats are small and simplified."
+        }
+      },
+      {
+        "id": "E010",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "窗户、屋顶、海面白线",
+        "observation": {
+          "zh": "窗户与海面标记数量克制，主要形体完成度高但细节简化。",
+          "en": "Windows and sea marks are restrained, with resolved main shapes and simplified details."
+        }
+      }
+    ],
+    "rules": [
+      {
+        "id": "R001",
+        "dimension": "shape",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "将对象概括为清晰几何轮廓和大色块，保留识别所需特征；避免写实微细节与繁复雕饰。",
+          "en": "Simplify objects into clear geometric silhouettes and broad color shapes, retaining identifying features; avoid realistic microdetail and elaborate ornament."
+        },
+        "variation": {
+          "zh": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+          "en": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。",
+          "en": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+        },
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R002",
+        "dimension": "color",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "以青蓝、钴蓝与鲜明黄色建立大面积冷暖对比，奶白调节亮度，橙红、珊瑚粉和青绿作较小强调；保持明快饱和而非灰褐复古。",
+          "en": "Build broad cool-warm contrast with cyan, cobalt and vivid yellow, balance brightness with cream, and use smaller orange-red, coral and turquoise accents; keep color bright and saturated rather than muted sepia."
+        },
+        "variation": {
+          "zh": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+          "en": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。",
+          "en": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+        },
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R003",
+        "dimension": "render",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "使用不透明平面铺色，以色面交界建立形体；避免光滑三维、摄影反射、厚涂和水彩晕染。",
+          "en": "Use opaque flat fills and define form through adjoining color planes; avoid smooth 3D modeling, photographic reflections, impasto and watercolor bleeding."
+        },
+        "variation": {
+          "zh": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+          "en": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。",
+          "en": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+        },
+        "evidence_ids": [
+          "E003"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R004",
+        "dimension": "edge",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "主轮廓保持清晰硬边，主要依靠相邻色块分离；仅在必要小结构使用细线，不给全体对象加粗黑描边。",
+          "en": "Keep principal silhouettes crisp, separating them mainly through adjacent colors; use fine lines only for necessary small structures, without thick black outlines around every object."
+        },
+        "variation": {
+          "zh": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+          "en": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。",
+          "en": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+        },
+        "evidence_ids": [
+          "E004"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R005",
+        "dimension": "light",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "以明亮底调和少量有色平面表示光照与暗面，控制明暗级数；不加复杂投影、镜面高光或体积光。",
+          "en": "Suggest illumination and shadow with a bright overall key and a few colored planes, limiting tonal steps; avoid complex cast shadows, specular highlights and volumetric light."
+        },
+        "variation": {
+          "zh": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+          "en": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。",
+          "en": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+        },
+        "evidence_ids": [
+          "E005"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R006",
+        "dimension": "texture",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "在大色面内加入细微均匀的哑光印刷颗粒，保留边缘和色彩纯度；避免粗糙刮痕、强烈做旧、厚重纸纹。",
+          "en": "Add fine even matte print grain within broad color fields while preserving edges and color clarity; avoid coarse scratches, heavy aging and strong paper texture."
+        },
+        "variation": {
+          "zh": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+          "en": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。",
+          "en": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+        },
+        "evidence_ids": [
+          "E006"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R007",
+        "dimension": "density",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "用大片安静色域对照局部密集形体，细节只服务识别和节奏；避免均匀铺满装饰或纹样。",
+          "en": "Contrast broad quiet fields with localized clusters of forms, using detail only for recognition and rhythm; avoid uniformly filling the picture with ornament or patterns."
+        },
+        "variation": {
+          "zh": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+          "en": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。",
+          "en": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+        },
+        "evidence_ids": [
+          "E007"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R008",
+        "dimension": "composition",
+        "scope": "conditional",
+        "priority": "must",
+        "instruction": {
+          "zh": "远景以流畅曲线或弧形边界连接前中景，紧凑形体簇与开阔区域形成不对称平衡；允许主体位置改变。",
+          "en": "In wide views, connect foreground and middle distance through a flowing curve or arc boundary, balancing compact clusters asymmetrically against open areas; subject placement may change."
+        },
+        "variation": {
+          "zh": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+          "en": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。",
+          "en": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+        },
+        "evidence_ids": [
+          "E008"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {
+          "shot_type": [
+            "wide"
+          ]
+        },
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R009",
+        "dimension": "scale",
+        "scope": "conditional",
+        "priority": "must",
+        "instruction": {
+          "zh": "远景通过大幅裁切的近景形体、中景主体和极小远景标记建立尺度梯度；不把所有元素画成同一大小。",
+          "en": "In wide views, establish a scale gradient through substantially cropped foreground forms, middle-distance subjects and tiny distant markers; do not render everything at the same scale."
+        },
+        "variation": {
+          "zh": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+          "en": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。",
+          "en": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+        },
+        "evidence_ids": [
+          "E009"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {
+          "shot_type": [
+            "wide"
+          ]
+        },
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R010",
+        "dimension": "finish",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "精确处理主要轮廓和色块拼接，次要结构以少量重复符号概括；保留有意的图形简化，不补写实细节。",
+          "en": "Resolve principal silhouettes and joins between color shapes precisely, summarizing secondary structures with sparse repeated marks; retain deliberate graphic simplification rather than adding realistic detail."
+        },
+        "variation": {
+          "zh": "具体主题、对象与位置可变化，保留本条形式关系；配色核心改变须派生版本。",
+          "en": "Specific themes, objects and positions may change while preserving this formal relationship; changing the core palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查实际输出对应区域是否体现本条关系；看不清时记录 unknown。",
+          "en": "Inspect the corresponding output region for this relationship; record unknown when it is not discernible."
+        },
+        "evidence_ids": [
+          "E010"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      }
+    ],
+    "unresolved": [],
+    "validation_records": []
+  },
+  "task": {
+    "id": "TASK-COAST-TEMPLATE",
+    "mode": "template",
+    "content": {
+      "zh": "主题：{{主题}}；主体：{{主体}}；动作与状态：{{动作与状态}}；场景：{{场景}}。",
+      "en": "Theme: {{theme}}; subjects: {{subjects}}; actions and state: {{actions_and_state}}; environment: {{environment}}."
+    },
+    "context": {
+      "subject_kind": "unknown",
+      "scene_kind": "unknown",
+      "shot_type": "unknown",
+      "text_mode": "unknown"
+    },
+    "requirements": [],
+    "unresolved": []
+  }
+}
