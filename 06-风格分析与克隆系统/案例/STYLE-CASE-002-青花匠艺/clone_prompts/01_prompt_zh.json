@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "system_version": "1.0.0",
+    "schema_version": "1.0",
+    "profile_id": "STYLE-PORCELAIN-CRAFT-002",
+    "profile_version": "0.1.0",
+    "task_id": "TASK-PORCELAIN-CLONE",
+    "task_mode": "instance",
+    "source_digest": "641e8400f63e3f8adf144865364de507d03acd3194f874167e89f84cc28821ae",
+    "export_status": "ready",
+    "illustrative": false,
+    "image_status": "not_generated",
+    "semantic_equivalence": "not_checked",
+    "pending": []
+  },
+  "language": "zh",
+  "content": "竖幅陶瓷工艺文化叙事插画。主要老年陶工双手拉坯，蓝白花纹大圆盘衬托；周围以小场景表现制坯、绘瓷、烧窑与售卖，配蓝白器物、传统建筑、花枝和流动水纹。重新安排细节，不新增文字、标识或水印。",
+  "context": {
+    "subject_kind": "mixed",
+    "scene_kind": "mixed",
+    "shot_type": "wide",
+    "text_mode": "forbidden"
+  },
+  "style_rules": [
+    {
+      "id": "R001",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "用细而连续的彩色线条勾勒形体，以少量内部线条表达结构；避免粗黑描边、摄影渲染和厚重笔触。",
+      "variation": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+      "check": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。"
+    },
+    {
+      "id": "R002",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "以钴蓝、浅蓝和留白建立主色身份，搭配暖米色底、赭棕辅色及少量粉色与柔绿强调；保持清亮而非全图冷蓝。",
+      "variation": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+      "check": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。"
+    },
+    {
+      "id": "R003",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "采用浅色平涂与有限的分区明暗，保持均匀明亮的插画照明；避免戏剧性投影、金属高光和体积光。",
+      "variation": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+      "check": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。"
+    },
+    {
+      "id": "R006",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "形体保持可辨识和适度写实，采用温和插画化简化；主要对象保留结构细节，配角概括但动作明确。",
+      "variation": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+      "check": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。"
+    },
+    {
+      "id": "R007",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "保持轮廓和色块边界清晰，以线条与分层色块区分遮挡；避免全画面柔焦、边缘溶解和摄影景深。",
+      "variation": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+      "check": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。"
+    },
+    {
+      "id": "R008",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "让细微暖纸感主要停留在底层，物体细节保持清爽；用服饰线纹、器物纹样表达材质，不用粗糙颗粒覆盖全图。",
+      "variation": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+      "check": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。"
+    },
+    {
+      "id": "R009",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "把细节集中在叙事节点与装饰纹样中，用留白隔开细节簇；避免等密度铺满背景。",
+      "variation": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+      "check": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。"
+    },
+    {
+      "id": "R010",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "用较明确的装饰性底形衬托主视觉锚点，外围边饰保持低对比，不能抢夺主体注意力。",
+      "variation": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+      "check": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。"
+    },
+    {
+      "id": "R011",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "精修重复装饰与关键结构线，保持手绘线描的轻微节律变化；避免机械三维质感和随意涂抹造成的细节噪声。",
+      "variation": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+      "check": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。"
+    },
+    {
+      "id": "R004",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "subject_kind": [
+          "mixed"
+        ]
+      },
+      "instruction": "多场景题材用不对称S形或回旋连接带组织叙事，以疏密变化连接独立场景，并保留明显的背景空隙。",
+      "variation": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+      "check": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。"
+    },
+    {
+      "id": "R005",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "subject_kind": [
+          "mixed"
+        ]
+      },
+      "instruction": "多场景题材按叙事重要性分级尺度：一个主要视觉锚点、中等场景和更小配角；允许装饰物夸大，不强求统一真实比例。",
+      "variation": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+      "check": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。"
+    }
+  ],
+  "task_requirements": []
+}

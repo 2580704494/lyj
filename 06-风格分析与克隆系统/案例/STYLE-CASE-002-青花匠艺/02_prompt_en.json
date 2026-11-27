@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "system_version": "1.0.0",
+    "schema_version": "1.0",
+    "profile_id": "STYLE-PORCELAIN-CRAFT-002",
+    "profile_version": "0.1.0",
+    "task_id": "TASK-PORCELAIN-TEMPLATE",
+    "task_mode": "template",
+    "source_digest": "99417a87830eb0858f40b22dedb035d6bf88efc4de9a85e6af3b79f749a1b3f3",
+    "export_status": "template",
+    "illustrative": false,
+    "image_status": "not_generated",
+    "semantic_equivalence": "not_checked",
+    "pending": []
+  },
+  "language": "en",
+  "content": "Theme: {{theme}}; subjects: {{subjects}}; actions and state: {{actions_and_state}}; environment: {{environment}}. Set subject_kind to mixed for a multi-scene montage; reassess composition for a single subject.",
+  "context": {
+    "subject_kind": "unknown",
+    "scene_kind": "unknown",
+    "shot_type": "unknown",
+    "text_mode": "unknown"
+  },
+  "style_rules": [
+    {
+      "id": "R001",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Draw forms with fine continuous colored outlines and restrained internal structural lines; avoid thick black outlines, photographic rendering and heavy brushwork.",
+      "variation": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship.",
+      "check": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+    },
+    {
+      "id": "R002",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Establish identity with cobalt, pale blue and reserved white, supported by warm cream, ochre-brown and small pink and muted green accents; keep it bright rather than uniformly cold blue.",
+      "variation": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship.",
+      "check": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+    },
+    {
+      "id": "R003",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Use light flat fills with limited segmented shading under even bright illustrative lighting; avoid dramatic cast shadows, metallic highlights and volumetric rays.",
+      "variation": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship.",
+      "check": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+    },
+    {
+      "id": "R006",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Keep forms recognizable and moderately naturalistic with gentle illustrative simplification; retain structural detail in major subjects and simplify supporting subjects while keeping actions clear.",
+      "variation": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship.",
+      "check": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+    },
+    {
+      "id": "R007",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Keep outlines and color boundaries clear, using lines and layered fills to distinguish occlusion; avoid overall soft focus, dissolving edges and photographic depth of field.",
+      "variation": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship.",
+      "check": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+    },
+    {
+      "id": "R008",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Keep subtle warm paper texture mainly in the ground while object detail remains clean; express materials through garment lines and object motifs, without coarse grain covering the image.",
+      "variation": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship.",
+      "check": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+    },
+    {
+      "id": "R009",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Concentrate detail in narrative nodes and ornamental motifs, separating clusters with negative space; avoid uniformly filling the background.",
+      "variation": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship.",
+      "check": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+    },
+    {
+      "id": "R010",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Support the principal anchor with a distinct ornamental backing shape, while keeping peripheral ornament low-contrast and subordinate.",
+      "variation": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship.",
+      "check": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+    },
+    {
+      "id": "R011",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Resolve repeated ornament and key structural lines carefully while retaining subtle hand-drawn rhythm; avoid mechanical 3D surfaces and noisy casual brush marks.",
+      "variation": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship.",
+      "check": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+    },
+    {
+      "id": "R004",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "subject_kind": [
+          "mixed"
+        ]
+      },
+      "instruction": "For multi-scene subjects, organize the narrative with asymmetrical S-shaped or curling connectors, linking distinct scenes with varied density and clear background gaps.",
+      "variation": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship.",
+      "check": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+    },
+    {
+      "id": "R005",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "subject_kind": [
+          "mixed"
+        ]
+      },
+      "instruction": "For multi-scene subjects, scale by narrative importance: one principal anchor, medium scenes and smaller supporting figures; allow enlarged decoration rather than a single realistic scale.",
+      "variation": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship.",
+      "check": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+    }
+  ],
+  "task_requirements": []
+}

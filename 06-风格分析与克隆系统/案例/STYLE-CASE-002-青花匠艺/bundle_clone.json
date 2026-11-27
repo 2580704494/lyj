@@ -1,0 +1,542 @@
+{
+  "schema_version": "1.0",
+  "system_version": "1.0.0",
+  "profile": {
+    "id": "STYLE-PORCELAIN-CRAFT-002",
+    "version": "0.1.0",
+    "parent": null,
+    "name": {
+      "zh": "青花彩线·纸感叙事拼景",
+      "en": "Cobalt colored-line narrative montage on warm paper"
+    },
+    "status": "provisional",
+    "illustrative": false,
+    "dimensions": {
+      "identity": {
+        "state": "active",
+        "note": {
+          "zh": "工笔线描式文创叙事插画；不是对真实制作媒介的鉴定。",
+          "en": "Fine-line cultural narrative illustration; this is not an identification of the actual production medium."
+        }
+      },
+      "color": {
+        "state": "active",
+        "note": {
+          "zh": "蓝白器物和水纹贯穿画面，暖米底与棕色人物形成对照，粉花绿叶点缀。",
+          "en": "Blue-white ceramics and water run throughout, contrasted with cream ground and brown figures, accented by pink flowers and green leaves."
+        }
+      },
+      "light": {
+        "state": "active",
+        "note": {
+          "zh": "色块内明暗较简化，少见统一方向的强烈投影。",
+          "en": "Shading within shapes is simplified, with little strong directional cast shadow."
+        }
+      },
+      "composition": {
+        "state": "active",
+        "note": {
+          "zh": "蓝色水带曲折串联多个场景，场景之间露出米色底。",
+          "en": "Curved blue water ribbons connect separate scenes with cream ground visible between them."
+        }
+      },
+      "scale": {
+        "state": "active",
+        "note": {
+          "zh": "老人明显大于周围工匠，花朵、器物与建筑不遵守同一真实比例。",
+          "en": "The elder is much larger than surrounding workers; flowers, vessels and buildings do not share a single physical scale."
+        }
+      },
+      "shape": {
+        "state": "active",
+        "note": {
+          "zh": "主角有皱纹和工作手势，小人物更概括，器物轮廓规整。",
+          "en": "The main figure has wrinkles and working gestures, supporting people are simplified, and vessel silhouettes are orderly."
+        }
+      },
+      "render": {
+        "state": "active",
+        "note": {
+          "zh": "轮廓多为细线，颜色按物体变化，内部有衣褶与装饰线。",
+          "en": "Fine outlines vary by object color, with internal garment and ornamental lines."
+        }
+      },
+      "edge": {
+        "state": "active",
+        "note": {
+          "zh": "边界清楚，蓝白浪花以闭合色块和线条分层。",
+          "en": "Boundaries are clear; blue-white waves are layered through closed color shapes and lines."
+        }
+      },
+      "finish": {
+        "state": "active",
+        "note": {
+          "zh": "重复纹样和结构线整齐，未见主导性的随机涂抹。",
+          "en": "Repeated motifs and structural lines are orderly, without dominant random brush marks."
+        }
+      },
+      "texture": {
+        "state": "active",
+        "note": {
+          "zh": "底色有细微斑驳，人物和器物内部纹样清晰。",
+          "en": "The background is subtly mottled while patterns on clothing and ceramics remain clear."
+        }
+      },
+      "density": {
+        "state": "active",
+        "note": {
+          "zh": "局部纹样细密，模块之间仍有较大留白。",
+          "en": "Local motifs are intricate while substantial blank spaces remain between clusters."
+        }
+      },
+      "anchor": {
+        "state": "active",
+        "note": {
+          "zh": "高对比蓝白圆盘托住主角，外框明显更淡。",
+          "en": "A contrasting blue-white plate supports the main figure, while the outer frame is much paler."
+        }
+      },
+      "tension": {
+        "state": "active",
+        "note": {
+          "zh": "蓝白与米棕冷暖对比、主角与配角大小对比、局部繁密与空隙对比。",
+          "en": "Blue-white versus cream-brown temperature, main versus supporting scale, and dense clusters versus gaps."
+        }
+      }
+    },
+    "references": [
+      {
+        "id": "REF001",
+        "role": "style",
+        "source": "User-provided ceramic craft illustration in this conversation; author and original medium unverified.",
+        "seen": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E001",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "人物、器物和建筑",
+        "observation": {
+          "zh": "轮廓多为细线，颜色按物体变化，内部有衣褶与装饰线。",
+          "en": "Fine outlines vary by object color, with internal garment and ornamental lines."
+        }
+      },
+      {
+        "id": "E002",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "全图配色",
+        "observation": {
+          "zh": "蓝白器物和水纹贯穿画面，暖米底与棕色人物形成对照，粉花绿叶点缀。",
+          "en": "Blue-white ceramics and water run throughout, contrasted with cream ground and brown figures, accented by pink flowers and green leaves."
+        }
+      },
+      {
+        "id": "E003",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "衣服、脸部与器物",
+        "observation": {
+          "zh": "色块内明暗较简化，少见统一方向的强烈投影。",
+          "en": "Shading within shapes is simplified, with little strong directional cast shadow."
+        }
+      },
+      {
+        "id": "E004",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "上方倾斜瓷瓶至下部浪花",
+        "observation": {
+          "zh": "蓝色水带曲折串联多个场景，场景之间露出米色底。",
+          "en": "Curved blue water ribbons connect separate scenes with cream ground visible between them."
+        }
+      },
+      {
+        "id": "E005",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "中央老人及周围小工匠",
+        "observation": {
+          "zh": "老人明显大于周围工匠，花朵、器物与建筑不遵守同一真实比例。",
+          "en": "The elder is much larger than surrounding workers; flowers, vessels and buildings do not share a single physical scale."
+        }
+      },
+      {
+        "id": "E006",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "老人面部、手部与小人物",
+        "observation": {
+          "zh": "主角有皱纹和工作手势，小人物更概括，器物轮廓规整。",
+          "en": "The main figure has wrinkles and working gestures, supporting people are simplified, and vessel silhouettes are orderly."
+        }
+      },
+      {
+        "id": "E007",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "器口、浪花、建筑屋顶",
+        "observation": {
+          "zh": "边界清楚，蓝白浪花以闭合色块和线条分层。",
+          "en": "Boundaries are clear; blue-white waves are layered through closed color shapes and lines."
+        }
+      },
+      {
+        "id": "E008",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "米色背景、人物衣服、青花表面",
+        "observation": {
+          "zh": "底色有细微斑驳，人物和器物内部纹样清晰。",
+          "en": "The background is subtly mottled while patterns on clothing and ceramics remain clear."
+        }
+      },
+      {
+        "id": "E009",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "盘面、衣褶、花瓣及场景间空隙",
+        "observation": {
+          "zh": "局部纹样细密，模块之间仍有较大留白。",
+          "en": "Local motifs are intricate while substantial blank spaces remain between clusters."
+        }
+      },
+      {
+        "id": "E010",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "老人身后的大圆盘及淡色椭圆边框",
+        "observation": {
+          "zh": "高对比蓝白圆盘托住主角，外框明显更淡。",
+          "en": "A contrasting blue-white plate supports the main figure, while the outer frame is much paler."
+        }
+      },
+      {
+        "id": "E011",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "盘面花纹、衣褶与建筑细部",
+        "observation": {
+          "zh": "重复纹样和结构线整齐，未见主导性的随机涂抹。",
+          "en": "Repeated motifs and structural lines are orderly, without dominant random brush marks."
+        }
+      }
+    ],
+    "rules": [
+      {
+        "id": "R001",
+        "dimension": "render",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "用细而连续的彩色线条勾勒形体，以少量内部线条表达结构；避免粗黑描边、摄影渲染和厚重笔触。",
+          "en": "Draw forms with fine continuous colored outlines and restrained internal structural lines; avoid thick black outlines, photographic rendering and heavy brushwork."
+        },
+        "variation": {
+          "zh": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+          "en": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship."
+        },
+        "check": {
+          "zh": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。",
+          "en": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R002",
+        "dimension": "color",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "以钴蓝、浅蓝和留白建立主色身份，搭配暖米色底、赭棕辅色及少量粉色与柔绿强调；保持清亮而非全图冷蓝。",
+          "en": "Establish identity with cobalt, pale blue and reserved white, supported by warm cream, ochre-brown and small pink and muted green accents; keep it bright rather than uniformly cold blue."
+        },
+        "variation": {
+          "zh": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+          "en": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship."
+        },
+        "check": {
+          "zh": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。",
+          "en": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R003",
+        "dimension": "light",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "采用浅色平涂与有限的分区明暗，保持均匀明亮的插画照明；避免戏剧性投影、金属高光和体积光。",
+          "en": "Use light flat fills with limited segmented shading under even bright illustrative lighting; avoid dramatic cast shadows, metallic highlights and volumetric rays."
+        },
+        "variation": {
+          "zh": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+          "en": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship."
+        },
+        "check": {
+          "zh": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。",
+          "en": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E003"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R004",
+        "dimension": "composition",
+        "scope": "conditional",
+        "priority": "must",
+        "instruction": {
+          "zh": "多场景题材用不对称S形或回旋连接带组织叙事，以疏密变化连接独立场景，并保留明显的背景空隙。",
+          "en": "For multi-scene subjects, organize the narrative with asymmetrical S-shaped or curling connectors, linking distinct scenes with varied density and clear background gaps."
+        },
+        "variation": {
+          "zh": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+          "en": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship."
+        },
+        "check": {
+          "zh": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。",
+          "en": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E004"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {
+          "subject_kind": [
+            "mixed"
+          ]
+        },
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R005",
+        "dimension": "scale",
+        "scope": "conditional",
+        "priority": "must",
+        "instruction": {
+          "zh": "多场景题材按叙事重要性分级尺度：一个主要视觉锚点、中等场景和更小配角；允许装饰物夸大，不强求统一真实比例。",
+          "en": "For multi-scene subjects, scale by narrative importance: one principal anchor, medium scenes and smaller supporting figures; allow enlarged decoration rather than a single realistic scale."
+        },
+        "variation": {
+          "zh": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+          "en": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship."
+        },
+        "check": {
+          "zh": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。",
+          "en": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E005"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {
+          "subject_kind": [
+            "mixed"
+          ]
+        },
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R006",
+        "dimension": "shape",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "形体保持可辨识和适度写实，采用温和插画化简化；主要对象保留结构细节，配角概括但动作明确。",
+          "en": "Keep forms recognizable and moderately naturalistic with gentle illustrative simplification; retain structural detail in major subjects and simplify supporting subjects while keeping actions clear."
+        },
+        "variation": {
+          "zh": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+          "en": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship."
+        },
+        "check": {
+          "zh": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。",
+          "en": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E006"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R007",
+        "dimension": "edge",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "保持轮廓和色块边界清晰，以线条与分层色块区分遮挡；避免全画面柔焦、边缘溶解和摄影景深。",
+          "en": "Keep outlines and color boundaries clear, using lines and layered fills to distinguish occlusion; avoid overall soft focus, dissolving edges and photographic depth of field."
+        },
+        "variation": {
+          "zh": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+          "en": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship."
+        },
+        "check": {
+          "zh": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。",
+          "en": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E007"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R008",
+        "dimension": "texture",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "让细微暖纸感主要停留在底层，物体细节保持清爽；用服饰线纹、器物纹样表达材质，不用粗糙颗粒覆盖全图。",
+          "en": "Keep subtle warm paper texture mainly in the ground while object detail remains clean; express materials through garment lines and object motifs, without coarse grain covering the image."
+        },
+        "variation": {
+          "zh": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+          "en": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship."
+        },
+        "check": {
+          "zh": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。",
+          "en": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E008"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R009",
+        "dimension": "density",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "把细节集中在叙事节点与装饰纹样中，用留白隔开细节簇；避免等密度铺满背景。",
+          "en": "Concentrate detail in narrative nodes and ornamental motifs, separating clusters with negative space; avoid uniformly filling the background."
+        },
+        "variation": {
+          "zh": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+          "en": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship."
+        },
+        "check": {
+          "zh": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。",
+          "en": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E009"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R010",
+        "dimension": "anchor",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "用较明确的装饰性底形衬托主视觉锚点，外围边饰保持低对比，不能抢夺主体注意力。",
+          "en": "Support the principal anchor with a distinct ornamental backing shape, while keeping peripheral ornament low-contrast and subordinate."
+        },
+        "variation": {
+          "zh": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+          "en": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship."
+        },
+        "check": {
+          "zh": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。",
+          "en": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E010"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R011",
+        "dimension": "finish",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "精修重复装饰与关键结构线，保持手绘线描的轻微节律变化；避免机械三维质感和随意涂抹造成的细节噪声。",
+          "en": "Resolve repeated ornament and key structural lines carefully while retaining subtle hand-drawn rhythm; avoid mechanical 3D surfaces and noisy casual brush marks."
+        },
+        "variation": {
+          "zh": "具体人物、器物、行业、地点与装饰题材可变化，保留本条视觉关系。",
+          "en": "Specific people, objects, industries, places and ornamental subjects may change while preserving this visual relationship."
+        },
+        "check": {
+          "zh": "在输出对应区域核对本条形式关系；不可判断时记录 unknown。",
+          "en": "Check this formal relationship in the corresponding output region; record unknown if it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E011"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      }
+    ],
+    "unresolved": [],
+    "validation_records": []
+  },
+  "task": {
+    "id": "TASK-PORCELAIN-CLONE",
+    "mode": "instance",
+    "content": {
+      "zh": "竖幅陶瓷工艺文化叙事插画。主要老年陶工双手拉坯，蓝白花纹大圆盘衬托；周围以小场景表现制坯、绘瓷、烧窑与售卖，配蓝白器物、传统建筑、花枝和流动水纹。重新安排细节，不新增文字、标识或水印。",
+      "en": "Portrait cultural narrative illustration of ceramic craftsmanship. A principal elderly potter shapes clay with both hands against a large blue-white floral plate; smaller scenes show shaping, porcelain painting, firing and selling, accompanied by blue-white vessels, traditional buildings, flowering branches and flowing water motifs. Recompose details without adding lettering, logos or watermarks."
+    },
+    "context": {
+      "subject_kind": "mixed",
+      "scene_kind": "mixed",
+      "shot_type": "wide",
+      "text_mode": "forbidden"
+    },
+    "requirements": [],
+    "unresolved": []
+  }
+}

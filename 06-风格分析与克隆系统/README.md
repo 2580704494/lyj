@@ -59,3 +59,4 @@ python tools/scimg.py verify-package .
 
 - [STYLE-CASE-001 夜城花园](./案例/STYLE-CASE-001-夜城花园/分析.md)：十三维分析、九条风格规则、通用与实例四版提示词、第一版克隆图及偏差审计。当前为 provisional，首轮纹理规则未通过，尚未验证跨主题迁移。
 
+- [STYLE-CASE-002 青花匠艺](./案例/STYLE-CASE-002-青花匠艺/README.md)：十二步分析、十一条规则、通用与实例四版提示词、首轮样图和审计。留白与纸纹存在偏差，状态为 provisional。

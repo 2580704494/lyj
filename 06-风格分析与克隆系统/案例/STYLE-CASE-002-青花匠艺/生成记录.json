@@ -1,0 +1,28 @@
+{
+  "tool": "built-in image_gen",
+  "attempt": 1,
+  "reference_conditioning": true,
+  "generation_prompt": "generation_prompt.txt",
+  "output": "克隆样图_v1.png",
+  "audit": {
+    "result": "fail",
+    "failed_must": [
+      "R004",
+      "R008",
+      "R009"
+    ],
+    "unknown_must": [],
+    "pending": [],
+    "non_must_findings": [],
+    "evidence_verification": "Record completeness checked only; actual pixels and statements require visual review."
+  },
+  "repository_status": "archived_by_user_request",
+  "profile_status": "provisional",
+  "limitations": [
+    "未测试纯文本独立生成",
+    "未测试其他主题",
+    "风格判断为本轮视觉审阅，没有相似度量化测量"
+  ],
+  "next_revision": "先缩小次要场景并恢复米色空隙，再单独减弱背景纸纹；每次重查核心规则。",
+  "reference_archive": "原始参考图未随本次公开提交，来源为本聊天用户附件；原作者未确认。"
+}
