@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "system_version": "1.0.0",
+    "schema_version": "1.0",
+    "profile_id": "STYLE-STELLAR-DUET-004",
+    "profile_version": "0.1.0",
+    "task_id": "TASK-STELLAR-TEMPLATE",
+    "task_mode": "template",
+    "source_digest": "1675b309ce58447f0aa8b99b07848f9d20c805e389bc75dd70d32d626b6c7a4f",
+    "export_status": "template",
+    "illustrative": false,
+    "image_status": "not_generated",
+    "semantic_equivalence": "not_checked",
+    "pending": []
+  },
+  "language": "en",
+  "content": "Theme: {{theme}}; subjects: {{subjects}}; actions and state: {{actions_and_state}}; environment: {{environment}}.",
+  "context": {
+    "subject_kind": "unknown",
+    "scene_kind": "unknown",
+    "shot_type": "unknown",
+    "text_mode": "unknown"
+  },
+  "style_rules": [
+    {
+      "id": "R001",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Combine refined anime linework with shaped cel shadows and restrained local gradients; avoid purely flat cut-paper rendering, heavy brushwork and photorealistic 3D.",
+      "variation": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version.",
+      "check": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+    },
+    {
+      "id": "R002",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Use fine clean contours with subtle width variation; keep faces and hands sharp, softening only selected light edges without letting bloom erase structure.",
+      "variation": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version.",
+      "check": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+    },
+    {
+      "id": "R003",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Organize luminous pink and gold groups against a near-black neutral ground, supported by ivory and small cool accents, retaining dark separations.",
+      "variation": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version.",
+      "check": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+    },
+    {
+      "id": "R004",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Differentiate highlights by material: designed broad bands on major flowing forms, gentle modeling on soft surfaces and small sharp reflections on hard accessories; avoid uniform gloss.",
+      "variation": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version.",
+      "check": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+    },
+    {
+      "id": "R008",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Keep a smooth digital illustration surface, expressing structure with grouped forms and sparse internal lines, without paper grain, coarse noise or photorealistic individual hairs.",
+      "variation": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version.",
+      "check": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+    },
+    {
+      "id": "R009",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Concentrate detail in expressions, key structures and ornamental nodes while keeping outer areas quiet; use sparkles or points of light sparsely rather than filling the background.",
+      "variation": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version.",
+      "check": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+    },
+    {
+      "id": "R010",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Polish visual anchors and highlight turns, using a few small sparkles and thin light traces for rhythm; keep glow subordinate to clear subject contours.",
+      "variation": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version.",
+      "check": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+    },
+    {
+      "id": "R005",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "subject_kind": [
+          "human",
+          "mixed"
+        ]
+      },
+      "instruction": "For human figures, use refined anime proportions and expressions with large eyes, simplified noses and mouths, and clear fingers and joints; avoid realistic skin microdetail or structurally incoherent limbs.",
+      "variation": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version.",
+      "check": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+    },
+    {
+      "id": "R006",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "shot_type": [
+          "wide"
+        ]
+      },
+      "instruction": "In wide views, carry the composition through a few large arcs or S-shaped flows, retaining dark gaps between curves for coherent motion rather than tangled clutter.",
+      "variation": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version.",
+      "check": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+    },
+    {
+      "id": "R007",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "shot_type": [
+          "wide"
+        ]
+      },
+      "instruction": "In wide views, exaggerate flowing forms relative to the main subjects to create visual motion; offset multiple subjects rather than arranging them in rigid evenly spaced rows.",
+      "variation": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version.",
+      "check": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+    }
+  ],
+  "task_requirements": []
+}

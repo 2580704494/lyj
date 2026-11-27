@@ -62,3 +62,7 @@ python tools/scimg.py verify-package .
 - [STYLE-CASE-002 青花匠艺](./案例/STYLE-CASE-002-青花匠艺/README.md)：十二步分析、十一条规则、通用与实例四版提示词、首轮样图和审计。留白与纸纹存在偏差，状态为 provisional。
 
 - [STYLE-CASE-003 晴海彩伞](./案例/STYLE-CASE-003-晴海彩伞/README.md)：十二步分析、十条规则、通用与实例四版提示词、首轮克隆图与定性审计；单图同主题通过，跨主题未验证，档案 provisional。
+
+- [STYLE-CASE-004 星屑双奏](./案例/STYLE-CASE-004-星屑双奏/README.md)：分析、通用与实例四版提示词、首轮样图和审计；金发高光偏锐利、金属感偏强，服饰与发束细节较繁复，档案 provisional。
+
+- [STYLE-CASE-005 绯红线仪](./案例/STYLE-CASE-005-绯红线仪/README.md)：分析、通用与实例四版提示词、首轮样图和审计；红底出现暗角与明暗起伏，头饰暗纹比参考明显，档案 provisional。

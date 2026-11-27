@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "system_version": "1.0.0",
+    "schema_version": "1.0",
+    "profile_id": "STYLE-STELLAR-DUET-004",
+    "profile_version": "0.1.0",
+    "task_id": "TASK-STELLAR-CLONE",
+    "task_mode": "instance",
+    "source_digest": "4123f308b182a1c297f0f43cb08b3355fc4d0330bb0e17e1b72f15f4ab9f7745",
+    "export_status": "ready",
+    "illustrative": false,
+    "image_status": "not_generated",
+    "semantic_equivalence": "not_checked",
+    "pending": []
+  },
+  "language": "zh",
+  "content": "高竖幅双角色动漫舞台主视觉：粉发角色在上，金发角色在下，轻盈悬浮动态，舞台服装；超长发束交错形成大回环与S形动势，深色抽象星屑背景。重新安排姿势与服饰细节，无新增文字、标识、水印或额外人物。",
+  "context": {
+    "subject_kind": "human",
+    "scene_kind": "none",
+    "shot_type": "wide",
+    "text_mode": "forbidden"
+  },
+  "style_rules": [
+    {
+      "id": "R001",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "以精细动漫线稿配合分块阴影和克制的局部渐变，避免纯平面剪纸、粗厚笔触和写实三维。",
+      "variation": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+      "check": "对照参考与输出检查本条关系，不可判断时记 unknown。"
+    },
+    {
+      "id": "R002",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "使用细而干净、轻微粗细变化的轮廓线，脸手保持清晰；仅在少量亮边柔化，不让泛光吞没结构。",
+      "variation": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+      "check": "对照参考与输出检查本条关系，不可判断时记 unknown。"
+    },
+    {
+      "id": "R003",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "在近黑中性背景上组织明亮粉色与金色主色组，以象牙白和少量冷色强调配合，保留暗色分隔。",
+      "variation": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+      "check": "对照参考与输出检查本条关系，不可判断时记 unknown。"
+    },
+    {
+      "id": "R004",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "让高光随材质分工：大形体采用设计性亮带，柔软表面用温和明暗，硬质配件用小面积锐利反光；避免全体同样发亮。",
+      "variation": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+      "check": "对照参考与输出检查本条关系，不可判断时记 unknown。"
+    },
+    {
+      "id": "R008",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "保持光洁数字插画表面，用成组形体与少量内部线表达结构，不加纸纹、粗颗粒或摄影式逐根毛发。",
+      "variation": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+      "check": "对照参考与输出检查本条关系，不可判断时记 unknown。"
+    },
+    {
+      "id": "R009",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "把细节集中于表情、关键结构和装饰节点，外围保持安静；星屑或光点只做稀疏辅助，不填满背景。",
+      "variation": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+      "check": "对照参考与输出检查本条关系，不可判断时记 unknown。"
+    },
+    {
+      "id": "R010",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "精修视觉锚点与高光转折，少量小星芒和细光痕强调节奏；发光效果从属于清楚的主体轮廓。",
+      "variation": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+      "check": "对照参考与输出检查本条关系，不可判断时记 unknown。"
+    },
+    {
+      "id": "R005",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "subject_kind": [
+          "human",
+          "mixed"
+        ]
+      },
+      "instruction": "出现人物时使用精细动漫比例与表情，大眼睛、简化鼻口、清楚手指和关节关系；避免写实皮肤细节或失去结构的肢体。",
+      "variation": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+      "check": "对照参考与输出检查本条关系，不可判断时记 unknown。"
+    },
+    {
+      "id": "R006",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "shot_type": [
+          "wide"
+        ]
+      },
+      "instruction": "远景以少量大弧线或S形流向贯穿画面，曲线之间保留暗色空隙，使动势连贯而非杂乱缠绕。",
+      "variation": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+      "check": "对照参考与输出检查本条关系，不可判断时记 unknown。"
+    },
+    {
+      "id": "R007",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "shot_type": [
+          "wide"
+        ]
+      },
+      "instruction": "远景允许流动性形体相对主体夸大，用尺度差建立视觉动势；多主体错位排列，避免等距僵硬并排。",
+      "variation": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+      "check": "对照参考与输出检查本条关系，不可判断时记 unknown。"
+    }
+  ],
+  "task_requirements": []
+}

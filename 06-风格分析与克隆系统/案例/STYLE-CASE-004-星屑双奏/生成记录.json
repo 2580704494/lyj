@@ -1,0 +1,32 @@
+{
+  "tool": "built-in image_gen",
+  "attempt": 1,
+  "reference_conditioning": true,
+  "generation_prompt": "generation_prompt.txt",
+  "output": "克隆样图_v1.png",
+  "audit": {
+    "result": "fail",
+    "failed_must": [
+      "R004"
+    ],
+    "unknown_must": [],
+    "pending": [],
+    "non_must_findings": [],
+    "evidence_verification": "Record completeness checked only; actual pixels and statements require visual review."
+  },
+  "profile_status": "provisional",
+  "repository_status": "archived_by_user_request",
+  "differences": [
+    "发束更碎，高光更锐利，金发偏金属感",
+    "服饰增加裙褶、金边及配件",
+    "新增麦克风，角色姿态和服饰并非身份复刻"
+  ],
+  "next_revision": "优先合并金发细碎高光，减弱锐利反光；再减少服饰装饰，并重查轮廓、暗空间和主体结构。",
+  "limitations": [
+    "仅为本轮单图同主题定性审阅",
+    "使用图片参考，未验证纯文本独立生成",
+    "未验证跨主题或其他模型",
+    "无相似度百分比测量"
+  ],
+  "reference_archive": "原始参考图未随本次公开提交，来自本聊天用户附件，作者未确认。"
+}

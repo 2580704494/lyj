@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "source_digest": "fac3340fb535daea4cc2a92c88241f417b53747ad14c3a8e7881206d28d45317",
+  "image_status": "reviewed",
+  "image_ref": "克隆样图_v1.png",
+  "checks": [
+    {
+      "id": "R001",
+      "result": "pass",
+      "region": "全图及对应规则区域",
+      "evidence": "深红主导，黑色小形、局部金纹与白线点的分工保留。"
+    },
+    {
+      "id": "R002",
+      "result": "pass",
+      "region": "全图及对应规则区域",
+      "evidence": "细线、实黑和局部纹样建形，未变写实三维。"
+    },
+    {
+      "id": "R003",
+      "result": "pass",
+      "region": "全图及对应规则区域",
+      "evidence": "主线细而清楚，没有明显粗描边或霓虹光晕。"
+    },
+    {
+      "id": "R004",
+      "result": "pass",
+      "region": "全图及对应规则区域",
+      "evidence": "极长颈肢、窄躯干、小面孔与角折关节保留。"
+    },
+    {
+      "id": "R005",
+      "result": "pass",
+      "region": "全图及对应规则区域",
+      "evidence": "细长主轴对照宽裙框，外围仍有大空域。"
+    },
+    {
+      "id": "R006",
+      "result": "pass",
+      "region": "全图及对应规则区域",
+      "evidence": "裙框内露出红底，密纹没有扩散为满图装饰。"
+    },
+    {
+      "id": "R007",
+      "result": "fail",
+      "region": "全图及对应规则区域",
+      "evidence": "金纹局部化得到保留，但红底出现暗角和明暗起伏，不符合均匀平整背景要求。"
+    },
+    {
+      "id": "R008",
+      "result": "pass",
+      "region": "全图及对应规则区域",
+      "evidence": "人物无明显自然光塑形或落地投影；背景明暗偏差另记R007。"
+    },
+    {
+      "id": "R009",
+      "result": "pass",
+      "region": "全图及对应规则区域",
+      "evidence": "白珠随腕部和鞋部曲线排列，大小有变化。"
+    },
+    {
+      "id": "R010",
+      "result": "pass",
+      "region": "全图及对应规则区域",
+      "evidence": "头饰仍低于白线对比，但暗纹比参考更明显，属于需继续收敛的差异。"
+    }
+  ]
+}

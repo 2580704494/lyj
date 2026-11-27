@@ -1,0 +1,503 @@
+{
+  "schema_version": "1.0",
+  "system_version": "1.0.0",
+  "profile": {
+    "id": "STYLE-CRIMSON-LINE-005",
+    "version": "0.1.0",
+    "parent": null,
+    "name": {
+      "zh": "绯红线仪·极细线装饰时装图",
+      "en": "Crimson line ritual: hairline ornamental fashion drawing"
+    },
+    "status": "provisional",
+    "illustrative": false,
+    "dimensions": {
+      "identity": {
+        "state": "active",
+        "note": {
+          "zh": "深红单色场中的极细线装饰性时装插画，具体历史流派未确认。",
+          "en": "Hairline ornamental fashion illustration on a deep red field; specific historical movement unverified."
+        }
+      },
+      "color": {
+        "state": "active",
+        "note": {
+          "zh": "深红底贯穿画面，黑色小块、金色细纹和白色线点作为局部强调。",
+          "en": "Deep red spans the image, accented locally by small black shapes, gold tracery and white lines and dots."
+        }
+      },
+      "light": {
+        "state": "active",
+        "note": {
+          "zh": "亮感主要来自白金与红黑对比，无明确投影或统一自然光。",
+          "en": "Brightness comes mainly from white and gold contrasting against red and black, without clear cast shadows or unified natural lighting."
+        }
+      },
+      "composition": {
+        "state": "active",
+        "note": {
+          "zh": "窄长人物贯穿中轴，弧形裙框向两侧展开，外侧空域宽阔。",
+          "en": "A narrow figure spans the central axis while curved skirt scaffolding expands sideways into broad open space."
+        }
+      },
+      "scale": {
+        "state": "active",
+        "note": {
+          "zh": "四肢颈部极长，头饰圆盘与裙框宽度夸大，身体狭窄。",
+          "en": "Limbs and neck are extremely long, the disk and skirt framework wide, and the body narrow."
+        }
+      },
+      "shape": {
+        "state": "active",
+        "note": {
+          "zh": "颈和四肢被极端拉长，关节以折线转折，头部面孔很小。",
+          "en": "The neck and limbs are extremely elongated, joints turn angularly and the face is tiny."
+        }
+      },
+      "render": {
+        "state": "active",
+        "note": {
+          "zh": "主体主要靠细线、少量黑色实形和局部金色纹样显现。",
+          "en": "The subject is revealed mainly through thin lines, a few solid black forms and localized gold patterns."
+        }
+      },
+      "edge": {
+        "state": "active",
+        "note": {
+          "zh": "长弧线纤细清楚，边缘没有明显泛光。",
+          "en": "Long curves are fine and clear, without obvious glow around their edges."
+        }
+      },
+      "finish": {
+        "state": "active",
+        "note": {
+          "zh": "头饰图案对比很低，线框与白点较清楚，局部精细程度有层级。",
+          "en": "Headdress patterns have very low contrast while the framework and white dots are clearer, creating a hierarchy of refinement."
+        }
+      },
+      "texture": {
+        "state": "active",
+        "note": {
+          "zh": "金色区域有细密纹样，黑色和背景基本平整。",
+          "en": "Ochre-gold regions contain fine patterns while black shapes and the background remain largely flat."
+        }
+      },
+      "density": {
+        "state": "active",
+        "note": {
+          "zh": "金色部分纹样密集，但大裙框内几乎全是背景红。",
+          "en": "Gold regions are densely patterned, but the large skirt framework contains almost entirely the background red."
+        }
+      },
+      "anchor": {
+        "state": "active",
+        "note": {
+          "zh": "暗圆盘、髋部汇线、白色珠点与鞋饰形成分散锚点。",
+          "en": "The dark disk, converging hip lines, pearl dots and shoe ornament create distributed anchors."
+        }
+      },
+      "tension": {
+        "state": "active",
+        "note": {
+          "zh": "狭长身体与宽裙框、实黑与空红、局部密纹与巨大留白对照。",
+          "en": "Slender body versus broad framework, solid black versus open red, and intricate patches versus large empty areas."
+        }
+      }
+    },
+    "references": [
+      {
+        "id": "REF001",
+        "role": "style",
+        "source": "User-provided red-ground elongated fashion illustration; author, cultural attribution and original medium unverified.",
+        "seen": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E001",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "背景与主体",
+        "observation": {
+          "zh": "深红底贯穿画面，黑色小块、金色细纹和白色线点作为局部强调。",
+          "en": "Deep red spans the image, accented locally by small black shapes, gold tracery and white lines and dots."
+        }
+      },
+      {
+        "id": "E002",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "裙撑、衣褶、肢体",
+        "observation": {
+          "zh": "主体主要靠细线、少量黑色实形和局部金色纹样显现。",
+          "en": "The subject is revealed mainly through thin lines, a few solid black forms and localized gold patterns."
+        }
+      },
+      {
+        "id": "E003",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "裙撑长线与衣服弧线",
+        "observation": {
+          "zh": "长弧线纤细清楚，边缘没有明显泛光。",
+          "en": "Long curves are fine and clear, without obvious glow around their edges."
+        }
+      },
+      {
+        "id": "E004",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "颈、躯干、四肢",
+        "observation": {
+          "zh": "颈和四肢被极端拉长，关节以折线转折，头部面孔很小。",
+          "en": "The neck and limbs are extremely elongated, joints turn angularly and the face is tiny."
+        }
+      },
+      {
+        "id": "E005",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "中轴人物、两侧空域与裙框",
+        "observation": {
+          "zh": "窄长人物贯穿中轴，弧形裙框向两侧展开，外侧空域宽阔。",
+          "en": "A narrow figure spans the central axis while curved skirt scaffolding expands sideways into broad open space."
+        }
+      },
+      {
+        "id": "E006",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "金纹肢体与空裙框",
+        "observation": {
+          "zh": "金色部分纹样密集，但大裙框内几乎全是背景红。",
+          "en": "Gold regions are densely patterned, but the large skirt framework contains almost entirely the background red."
+        }
+      },
+      {
+        "id": "E007",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "赭金区域、黑块和红底",
+        "observation": {
+          "zh": "金色区域有细密纹样，黑色和背景基本平整。",
+          "en": "Ochre-gold regions contain fine patterns while black shapes and the background remain largely flat."
+        }
+      },
+      {
+        "id": "E008",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "白点、金纹与轮廓",
+        "observation": {
+          "zh": "亮感主要来自白金与红黑对比，无明确投影或统一自然光。",
+          "en": "Brightness comes mainly from white and gold contrasting against red and black, without clear cast shadows or unified natural lighting."
+        }
+      },
+      {
+        "id": "E009",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "圆盘、髋部节点、珠链与鞋",
+        "observation": {
+          "zh": "暗圆盘、髋部汇线、白色珠点与鞋饰形成分散锚点。",
+          "en": "The dark disk, converging hip lines, pearl dots and shoe ornament create distributed anchors."
+        }
+      },
+      {
+        "id": "E010",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "头饰暗纹、线框与珠点",
+        "observation": {
+          "zh": "头饰图案对比很低，线框与白点较清楚，局部精细程度有层级。",
+          "en": "Headdress patterns have very low contrast while the framework and white dots are clearer, creating a hierarchy of refinement."
+        }
+      }
+    ],
+    "rules": [
+      {
+        "id": "R001",
+        "dimension": "color",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "让深红占据绝大部分色域，以少量平面黑形、赭金细纹及象牙白线点分工强调；避免大面积金色或白色填充。",
+          "en": "Let deep crimson dominate nearly all color space, with sparse flat black shapes, ochre-gold tracery and ivory lines and dots serving distinct accents; avoid large gold or white fills."
+        },
+        "variation": {
+          "zh": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+          "en": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。",
+          "en": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R002",
+        "dimension": "render",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "以精密细线、稀少实形和局部微纹样建立形体，不用写实体积、厚涂或摄影材质。",
+          "en": "Build forms through precise fine lines, sparse solid shapes and localized micro-patterns, without realistic volume, impasto or photographic materials."
+        },
+        "variation": {
+          "zh": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+          "en": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。",
+          "en": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R003",
+        "dimension": "edge",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "保持发丝般纤细、清楚且连续的轮廓，允许轻微线宽层级；不使用粗重描边、软焦或霓虹光晕。",
+          "en": "Keep hairline contours clear and continuous with subtle line-weight hierarchy; avoid heavy outlines, soft focus and neon halos."
+        },
+        "variation": {
+          "zh": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+          "en": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。",
+          "en": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E003"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R004",
+        "dimension": "shape",
+        "scope": "conditional",
+        "priority": "must",
+        "instruction": {
+          "zh": "人物主题采用极端修长的非写实比例、狭窄躯干、角状关节和高度简化的面孔；不自动纠正为正常人体比例。",
+          "en": "For human subjects, use extremely elongated nonrealistic proportions, a narrow torso, angular joints and a highly simplified face; do not normalize the anatomy."
+        },
+        "variation": {
+          "zh": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+          "en": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。",
+          "en": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E004"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {
+          "subject_kind": [
+            "human",
+            "mixed"
+          ]
+        },
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R005",
+        "dimension": "composition",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "以细长主轴对照少量宽展弧形结构，保留大面积连续背景空域；避免把主形铺满画面。",
+          "en": "Contrast a slender principal axis with a few broadly spreading curved structures, retaining large uninterrupted background fields; avoid filling the canvas with solid subjects."
+        },
+        "variation": {
+          "zh": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+          "en": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。",
+          "en": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E005"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R006",
+        "dimension": "density",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "将复杂微纹样限制在少数封闭小区域，外围与开放结构内部保持疏空；不把局部繁密扩散为全图装饰。",
+          "en": "Confine intricate micro-patterns to a few small bounded regions while keeping surroundings and open structures sparse; do not spread local intricacy into all-over ornament."
+        },
+        "variation": {
+          "zh": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+          "en": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。",
+          "en": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E006"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R007",
+        "dimension": "texture",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "以细密赭金线纹表达装饰表面，保持其与平整黑形和均匀红底的区别；不加厚重金属反射、粗颗粒或纸纹。",
+          "en": "Express ornamental surfaces with fine ochre-gold line patterns, distinguishing them from flat black shapes and an even red ground; avoid heavy metallic reflection, coarse grain and paper texture."
+        },
+        "variation": {
+          "zh": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+          "en": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。",
+          "en": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E007"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R008",
+        "dimension": "light",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "依靠平面色彩对比建立亮暗，不添加自然光塑形、投影、聚光灯或发光粒子。",
+          "en": "Establish brightness through flat color contrast rather than natural-light modeling, cast shadows, spotlights or luminous particles."
+        },
+        "variation": {
+          "zh": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+          "en": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。",
+          "en": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E008"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R009",
+        "dimension": "anchor",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "以少量汇线节点和不等大小白点建立视觉停顿，点列随曲线疏密变化；不要改成均匀星空或背景散点。",
+          "en": "Create visual pauses with a few converging-line nodes and variably sized ivory dots, spacing dot chains along curves; do not turn them into uniform stars or background speckles."
+        },
+        "variation": {
+          "zh": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+          "en": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。",
+          "en": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E009"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R010",
+        "dimension": "finish",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "有意保留部分暗纹的低对比，以更清楚的细线和白点建立层级；不要为了显眼将全部纹样提亮或加粗。",
+          "en": "Deliberately retain low contrast in selected dark motifs, establishing hierarchy with clearer fine lines and ivory dots; do not brighten or thicken every pattern for visibility."
+        },
+        "variation": {
+          "zh": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+          "en": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version."
+        },
+        "check": {
+          "zh": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。",
+          "en": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E010"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      }
+    ],
+    "unresolved": [],
+    "validation_records": []
+  },
+  "task": {
+    "id": "TASK-CRIMSON-TEMPLATE",
+    "mode": "template",
+    "content": {
+      "zh": "主题：{{主题}}；主体：{{主体}}；动作与状态：{{动作与状态}}；场景：{{场景}}。",
+      "en": "Theme: {{theme}}; subjects: {{subjects}}; actions and state: {{actions_and_state}}; environment: {{environment}}."
+    },
+    "context": {
+      "subject_kind": "unknown",
+      "scene_kind": "unknown",
+      "shot_type": "unknown",
+      "text_mode": "unknown"
+    },
+    "requirements": [],
+    "unresolved": []
+  }
+}

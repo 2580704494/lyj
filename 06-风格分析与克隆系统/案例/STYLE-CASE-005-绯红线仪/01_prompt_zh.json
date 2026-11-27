@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "system_version": "1.0.0",
+    "schema_version": "1.0",
+    "profile_id": "STYLE-CRIMSON-LINE-005",
+    "profile_version": "0.1.0",
+    "task_id": "TASK-CRIMSON-TEMPLATE",
+    "task_mode": "template",
+    "source_digest": "26908fa0ddff43a66384450543aa587455ae56b5ca779dbb7c4b165dc842af4a",
+    "export_status": "template",
+    "illustrative": false,
+    "image_status": "not_generated",
+    "semantic_equivalence": "not_checked",
+    "pending": []
+  },
+  "language": "zh",
+  "content": "主题：{{主题}}；主体：{{主体}}；动作与状态：{{动作与状态}}；场景：{{场景}}。",
+  "context": {
+    "subject_kind": "unknown",
+    "scene_kind": "unknown",
+    "shot_type": "unknown",
+    "text_mode": "unknown"
+  },
+  "style_rules": [
+    {
+      "id": "R001",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "让深红占据绝大部分色域，以少量平面黑形、赭金细纹及象牙白线点分工强调；避免大面积金色或白色填充。",
+      "variation": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+      "check": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。"
+    },
+    {
+      "id": "R002",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "以精密细线、稀少实形和局部微纹样建立形体，不用写实体积、厚涂或摄影材质。",
+      "variation": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+      "check": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。"
+    },
+    {
+      "id": "R003",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "保持发丝般纤细、清楚且连续的轮廓，允许轻微线宽层级；不使用粗重描边、软焦或霓虹光晕。",
+      "variation": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+      "check": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。"
+    },
+    {
+      "id": "R005",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "以细长主轴对照少量宽展弧形结构，保留大面积连续背景空域；避免把主形铺满画面。",
+      "variation": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+      "check": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。"
+    },
+    {
+      "id": "R006",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "将复杂微纹样限制在少数封闭小区域，外围与开放结构内部保持疏空；不把局部繁密扩散为全图装饰。",
+      "variation": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+      "check": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。"
+    },
+    {
+      "id": "R007",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "以细密赭金线纹表达装饰表面，保持其与平整黑形和均匀红底的区别；不加厚重金属反射、粗颗粒或纸纹。",
+      "variation": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+      "check": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。"
+    },
+    {
+      "id": "R008",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "依靠平面色彩对比建立亮暗，不添加自然光塑形、投影、聚光灯或发光粒子。",
+      "variation": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+      "check": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。"
+    },
+    {
+      "id": "R009",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "以少量汇线节点和不等大小白点建立视觉停顿，点列随曲线疏密变化；不要改成均匀星空或背景散点。",
+      "variation": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+      "check": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。"
+    },
+    {
+      "id": "R010",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "有意保留部分暗纹的低对比，以更清楚的细线和白点建立层级；不要为了显眼将全部纹样提亮或加粗。",
+      "variation": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+      "check": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。"
+    },
+    {
+      "id": "R004",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "subject_kind": [
+          "human",
+          "mixed"
+        ]
+      },
+      "instruction": "人物主题采用极端修长的非写实比例、狭窄躯干、角状关节和高度简化的面孔；不自动纠正为正常人体比例。",
+      "variation": "具体服饰、姿态、道具与主题可变，保持本条形式关系；更改红黑金白主色关系需派生版本。",
+      "check": "检查成图对应区域的线宽、填充、比例或对比关系；不清楚记 unknown。"
+    }
+  ],
+  "task_requirements": []
+}

@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "system_version": "1.0.0",
+    "schema_version": "1.0",
+    "profile_id": "STYLE-CRIMSON-LINE-005",
+    "profile_version": "0.1.0",
+    "task_id": "TASK-CRIMSON-CLONE",
+    "task_mode": "instance",
+    "source_digest": "fac3340fb535daea4cc2a92c88241f417b53747ad14c3a8e7881206d28d45317",
+    "export_status": "ready",
+    "illustrative": false,
+    "image_status": "not_generated",
+    "semantic_equivalence": "not_checked",
+    "pending": []
+  },
+  "language": "en",
+  "content": "Portrait illustration of one extremely elongated fashion figure on deep crimson, with a large low-contrast dark red disk bearing black tracery, a tiny face, long neck and limbs, black-gold divisions and an asymmetrical walking pose. A few ivory curves form an empty skirt scaffold and tilted elliptical hem with the same background visible throughout; dotted pearl chains and sculptural shoes provide accents. Recompose details without text or watermarks.",
+  "context": {
+    "subject_kind": "human",
+    "scene_kind": "none",
+    "shot_type": "wide",
+    "text_mode": "forbidden"
+  },
+  "style_rules": [
+    {
+      "id": "R001",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Let deep crimson dominate nearly all color space, with sparse flat black shapes, ochre-gold tracery and ivory lines and dots serving distinct accents; avoid large gold or white fills.",
+      "variation": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version.",
+      "check": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+    },
+    {
+      "id": "R002",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Build forms through precise fine lines, sparse solid shapes and localized micro-patterns, without realistic volume, impasto or photographic materials.",
+      "variation": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version.",
+      "check": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+    },
+    {
+      "id": "R003",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Keep hairline contours clear and continuous with subtle line-weight hierarchy; avoid heavy outlines, soft focus and neon halos.",
+      "variation": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version.",
+      "check": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+    },
+    {
+      "id": "R005",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Contrast a slender principal axis with a few broadly spreading curved structures, retaining large uninterrupted background fields; avoid filling the canvas with solid subjects.",
+      "variation": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version.",
+      "check": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+    },
+    {
+      "id": "R006",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Confine intricate micro-patterns to a few small bounded regions while keeping surroundings and open structures sparse; do not spread local intricacy into all-over ornament.",
+      "variation": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version.",
+      "check": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+    },
+    {
+      "id": "R007",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Express ornamental surfaces with fine ochre-gold line patterns, distinguishing them from flat black shapes and an even red ground; avoid heavy metallic reflection, coarse grain and paper texture.",
+      "variation": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version.",
+      "check": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+    },
+    {
+      "id": "R008",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Establish brightness through flat color contrast rather than natural-light modeling, cast shadows, spotlights or luminous particles.",
+      "variation": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version.",
+      "check": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+    },
+    {
+      "id": "R009",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Create visual pauses with a few converging-line nodes and variably sized ivory dots, spacing dot chains along curves; do not turn them into uniform stars or background speckles.",
+      "variation": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version.",
+      "check": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+    },
+    {
+      "id": "R010",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Deliberately retain low contrast in selected dark motifs, establishing hierarchy with clearer fine lines and ivory dots; do not brighten or thicken every pattern for visibility.",
+      "variation": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version.",
+      "check": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+    },
+    {
+      "id": "R004",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "subject_kind": [
+          "human",
+          "mixed"
+        ]
+      },
+      "instruction": "For human subjects, use extremely elongated nonrealistic proportions, a narrow torso, angular joints and a highly simplified face; do not normalize the anatomy.",
+      "variation": "Specific costumes, poses, props and themes may change while preserving this relationship; changing the crimson-black-gold-ivory palette requires a derived version.",
+      "check": "Inspect line weight, fill, proportion or contrast in the corresponding output area; record unknown if unclear."
+    }
+  ],
+  "task_requirements": []
+}

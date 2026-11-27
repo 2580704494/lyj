@@ -1,0 +1,32 @@
+{
+  "tool": "built-in image_gen",
+  "attempt": 1,
+  "reference_conditioning": true,
+  "generation_prompt": "generation_prompt.txt",
+  "output": "克隆样图_v1.png",
+  "audit": {
+    "result": "fail",
+    "failed_must": [
+      "R007"
+    ],
+    "unknown_must": [],
+    "pending": [],
+    "non_must_findings": [],
+    "evidence_verification": "Record completeness checked only; actual pixels and statements require visual review."
+  },
+  "profile_status": "provisional",
+  "repository_status": "archived_by_user_request",
+  "differences": [
+    "背景出现暗角与明暗起伏",
+    "头饰暗纹更清楚",
+    "手臂、珠链与步姿重新安排"
+  ],
+  "next_revision": "先将背景恢复为均匀深红，再降低头饰暗纹对比；保留空裙框、比例与细线。",
+  "limitations": [
+    "单图同主题定性审阅",
+    "未测纯文字独立生成",
+    "未测跨主题或其他模型",
+    "原图作者与文化归属未核实"
+  ],
+  "reference_archive": "原始参考图未随本次公开提交，来自本聊天用户附件，作者未确认。"
+}

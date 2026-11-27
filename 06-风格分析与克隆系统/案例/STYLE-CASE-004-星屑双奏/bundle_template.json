@@ -1,0 +1,511 @@
+{
+  "schema_version": "1.0",
+  "system_version": "1.0.0",
+  "profile": {
+    "id": "STYLE-STELLAR-DUET-004",
+    "version": "0.1.0",
+    "parent": null,
+    "name": {
+      "zh": "星屑双奏·精细动漫回旋构图",
+      "en": "Stellar duet: polished anime with sweeping arcs"
+    },
+    "status": "provisional",
+    "illustrative": false,
+    "dimensions": {
+      "identity": {
+        "state": "active",
+        "note": {
+          "zh": "精细动漫角色主视觉，深底与粉金流动形体结合。",
+          "en": "Polished anime character key visual combining a dark ground with flowing pink and gold forms."
+        }
+      },
+      "color": {
+        "state": "active",
+        "note": {
+          "zh": "近黑背景衬托粉色和金色大色组，肤色浅，眼睛有小面积冷色。",
+          "en": "A near-black ground supports large pink and gold groups, pale skin and small cool eye accents."
+        }
+      },
+      "light": {
+        "state": "active",
+        "note": {
+          "zh": "头发出现带状高光，皮肤较柔和，局部衣料反光较锐利。",
+          "en": "Hair has banded highlights, skin softer modeling and selected sharper clothing reflections."
+        }
+      },
+      "composition": {
+        "state": "active",
+        "note": {
+          "zh": "粉发在上方形成大空环，金发在下方形成回旋扇面，两者交错。",
+          "en": "Pink hair forms a large open upper loop, while gold hair forms a lower swirling fan; the two interlock."
+        }
+      },
+      "scale": {
+        "state": "active",
+        "note": {
+          "zh": "长发占据的画面范围显著大于身体，人物上下错位。",
+          "en": "Hair spans a much larger region than the bodies, with the figures vertically offset."
+        }
+      },
+      "shape": {
+        "state": "active",
+        "note": {
+          "zh": "大眼睛多亮点，鼻口简化，手势和四肢保持动漫化结构。",
+          "en": "Large eyes have multiple highlights; noses and mouths are simplified, with structured anime gestures and limbs."
+        }
+      },
+      "render": {
+        "state": "active",
+        "note": {
+          "zh": "阴影有明确分区，同时存在局部柔和过渡。",
+          "en": "Shadows have distinct shapes together with localized soft transitions."
+        }
+      },
+      "edge": {
+        "state": "active",
+        "note": {
+          "zh": "轮廓纤细清楚，发束内部线条疏密有别。",
+          "en": "Contours are fine and clear, with varied internal line density in hair locks."
+        }
+      },
+      "finish": {
+        "state": "active",
+        "note": {
+          "zh": "眼睛和高光精修，少量十字星芒和竖向细光痕辅助。",
+          "en": "Eyes and highlights are carefully resolved, supported by a few cross-shaped sparkles and thin vertical light traces."
+        }
+      },
+      "texture": {
+        "state": "active",
+        "note": {
+          "zh": "表面整体光洁，发丝概括为片状发束，背景为离散亮点。",
+          "en": "Surfaces are smooth, hair is grouped into broad locks and the background uses discrete points of light."
+        }
+      },
+      "density": {
+        "state": "active",
+        "note": {
+          "zh": "细节集中在眼睛、衣饰和发束转折，外围多为暗空间与稀疏星点。",
+          "en": "Detail concentrates in eyes, costume accents and hair turns; outer regions are dark space with sparse stars."
+        }
+      },
+      "anchor": {
+        "state": "active",
+        "note": {
+          "zh": "两张脸与亮色发束转折形成上下注意锚点。",
+          "en": "Two faces and turns in bright hair locks form vertically arranged anchors."
+        }
+      },
+      "tension": {
+        "state": "active",
+        "note": {
+          "zh": "静暗背景与明亮动势、纤细身体与夸张长发形成对照。",
+          "en": "A quiet dark ground contrasts with bright motion, and slender bodies with exaggerated hair."
+        }
+      }
+    },
+    "references": [
+      {
+        "id": "REF001",
+        "role": "style",
+        "source": "User-provided pink-and-gold anime duo illustration in this conversation; author, character identities and original production method unverified.",
+        "seen": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E001",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "脸部、衣服与头发",
+        "observation": {
+          "zh": "阴影有明确分区，同时存在局部柔和过渡。",
+          "en": "Shadows have distinct shapes together with localized soft transitions."
+        }
+      },
+      {
+        "id": "E002",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "面部、手指与发束轮廓",
+        "observation": {
+          "zh": "轮廓纤细清楚，发束内部线条疏密有别。",
+          "en": "Contours are fine and clear, with varied internal line density in hair locks."
+        }
+      },
+      {
+        "id": "E003",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "整体背景与两组人物",
+        "observation": {
+          "zh": "近黑背景衬托粉色和金色大色组，肤色浅，眼睛有小面积冷色。",
+          "en": "A near-black ground supports large pink and gold groups, pale skin and small cool eye accents."
+        }
+      },
+      {
+        "id": "E004",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "发束亮带、皮肤与衣料",
+        "observation": {
+          "zh": "头发出现带状高光，皮肤较柔和，局部衣料反光较锐利。",
+          "en": "Hair has banded highlights, skin softer modeling and selected sharper clothing reflections."
+        }
+      },
+      {
+        "id": "E005",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "人物面部与手势",
+        "observation": {
+          "zh": "大眼睛多亮点，鼻口简化，手势和四肢保持动漫化结构。",
+          "en": "Large eyes have multiple highlights; noses and mouths are simplified, with structured anime gestures and limbs."
+        }
+      },
+      {
+        "id": "E006",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "上下大弧形头发",
+        "observation": {
+          "zh": "粉发在上方形成大空环，金发在下方形成回旋扇面，两者交错。",
+          "en": "Pink hair forms a large open upper loop, while gold hair forms a lower swirling fan; the two interlock."
+        }
+      },
+      {
+        "id": "E007",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "长发面积与身体",
+        "observation": {
+          "zh": "长发占据的画面范围显著大于身体，人物上下错位。",
+          "en": "Hair spans a much larger region than the bodies, with the figures vertically offset."
+        }
+      },
+      {
+        "id": "E008",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "皮肤、发束、背景",
+        "observation": {
+          "zh": "表面整体光洁，发丝概括为片状发束，背景为离散亮点。",
+          "en": "Surfaces are smooth, hair is grouped into broad locks and the background uses discrete points of light."
+        }
+      },
+      {
+        "id": "E009",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "脸部衣饰与外侧黑背景",
+        "observation": {
+          "zh": "细节集中在眼睛、衣饰和发束转折，外围多为暗空间与稀疏星点。",
+          "en": "Detail concentrates in eyes, costume accents and hair turns; outer regions are dark space with sparse stars."
+        }
+      },
+      {
+        "id": "E010",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "眼睛、发束与局部星芒",
+        "observation": {
+          "zh": "眼睛和高光精修，少量十字星芒和竖向细光痕辅助。",
+          "en": "Eyes and highlights are carefully resolved, supported by a few cross-shaped sparkles and thin vertical light traces."
+        }
+      }
+    ],
+    "rules": [
+      {
+        "id": "R001",
+        "dimension": "render",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "以精细动漫线稿配合分块阴影和克制的局部渐变，避免纯平面剪纸、粗厚笔触和写实三维。",
+          "en": "Combine refined anime linework with shaped cel shadows and restrained local gradients; avoid purely flat cut-paper rendering, heavy brushwork and photorealistic 3D."
+        },
+        "variation": {
+          "zh": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+          "en": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version."
+        },
+        "check": {
+          "zh": "对照参考与输出检查本条关系，不可判断时记 unknown。",
+          "en": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R002",
+        "dimension": "edge",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "使用细而干净、轻微粗细变化的轮廓线，脸手保持清晰；仅在少量亮边柔化，不让泛光吞没结构。",
+          "en": "Use fine clean contours with subtle width variation; keep faces and hands sharp, softening only selected light edges without letting bloom erase structure."
+        },
+        "variation": {
+          "zh": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+          "en": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version."
+        },
+        "check": {
+          "zh": "对照参考与输出检查本条关系，不可判断时记 unknown。",
+          "en": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R003",
+        "dimension": "color",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "在近黑中性背景上组织明亮粉色与金色主色组，以象牙白和少量冷色强调配合，保留暗色分隔。",
+          "en": "Organize luminous pink and gold groups against a near-black neutral ground, supported by ivory and small cool accents, retaining dark separations."
+        },
+        "variation": {
+          "zh": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+          "en": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version."
+        },
+        "check": {
+          "zh": "对照参考与输出检查本条关系，不可判断时记 unknown。",
+          "en": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E003"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R004",
+        "dimension": "light",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "让高光随材质分工：大形体采用设计性亮带，柔软表面用温和明暗，硬质配件用小面积锐利反光；避免全体同样发亮。",
+          "en": "Differentiate highlights by material: designed broad bands on major flowing forms, gentle modeling on soft surfaces and small sharp reflections on hard accessories; avoid uniform gloss."
+        },
+        "variation": {
+          "zh": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+          "en": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version."
+        },
+        "check": {
+          "zh": "对照参考与输出检查本条关系，不可判断时记 unknown。",
+          "en": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E004"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R005",
+        "dimension": "shape",
+        "scope": "conditional",
+        "priority": "must",
+        "instruction": {
+          "zh": "出现人物时使用精细动漫比例与表情，大眼睛、简化鼻口、清楚手指和关节关系；避免写实皮肤细节或失去结构的肢体。",
+          "en": "For human figures, use refined anime proportions and expressions with large eyes, simplified noses and mouths, and clear fingers and joints; avoid realistic skin microdetail or structurally incoherent limbs."
+        },
+        "variation": {
+          "zh": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+          "en": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version."
+        },
+        "check": {
+          "zh": "对照参考与输出检查本条关系，不可判断时记 unknown。",
+          "en": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E005"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {
+          "subject_kind": [
+            "human",
+            "mixed"
+          ]
+        },
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R006",
+        "dimension": "composition",
+        "scope": "conditional",
+        "priority": "must",
+        "instruction": {
+          "zh": "远景以少量大弧线或S形流向贯穿画面，曲线之间保留暗色空隙，使动势连贯而非杂乱缠绕。",
+          "en": "In wide views, carry the composition through a few large arcs or S-shaped flows, retaining dark gaps between curves for coherent motion rather than tangled clutter."
+        },
+        "variation": {
+          "zh": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+          "en": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version."
+        },
+        "check": {
+          "zh": "对照参考与输出检查本条关系，不可判断时记 unknown。",
+          "en": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E006"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {
+          "shot_type": [
+            "wide"
+          ]
+        },
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R007",
+        "dimension": "scale",
+        "scope": "conditional",
+        "priority": "must",
+        "instruction": {
+          "zh": "远景允许流动性形体相对主体夸大，用尺度差建立视觉动势；多主体错位排列，避免等距僵硬并排。",
+          "en": "In wide views, exaggerate flowing forms relative to the main subjects to create visual motion; offset multiple subjects rather than arranging them in rigid evenly spaced rows."
+        },
+        "variation": {
+          "zh": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+          "en": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version."
+        },
+        "check": {
+          "zh": "对照参考与输出检查本条关系，不可判断时记 unknown。",
+          "en": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E007"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {
+          "shot_type": [
+            "wide"
+          ]
+        },
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R008",
+        "dimension": "texture",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "保持光洁数字插画表面，用成组形体与少量内部线表达结构，不加纸纹、粗颗粒或摄影式逐根毛发。",
+          "en": "Keep a smooth digital illustration surface, expressing structure with grouped forms and sparse internal lines, without paper grain, coarse noise or photorealistic individual hairs."
+        },
+        "variation": {
+          "zh": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+          "en": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version."
+        },
+        "check": {
+          "zh": "对照参考与输出检查本条关系，不可判断时记 unknown。",
+          "en": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E008"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R009",
+        "dimension": "density",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "把细节集中于表情、关键结构和装饰节点，外围保持安静；星屑或光点只做稀疏辅助，不填满背景。",
+          "en": "Concentrate detail in expressions, key structures and ornamental nodes while keeping outer areas quiet; use sparkles or points of light sparsely rather than filling the background."
+        },
+        "variation": {
+          "zh": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+          "en": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version."
+        },
+        "check": {
+          "zh": "对照参考与输出检查本条关系，不可判断时记 unknown。",
+          "en": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E009"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R010",
+        "dimension": "finish",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "精修视觉锚点与高光转折，少量小星芒和细光痕强调节奏；发光效果从属于清楚的主体轮廓。",
+          "en": "Polish visual anchors and highlight turns, using a few small sparkles and thin light traces for rhythm; keep glow subordinate to clear subject contours."
+        },
+        "variation": {
+          "zh": "具体角色、服饰、姿态和流动载体可变化，保留形式关系；改变核心色组须派生版本。",
+          "en": "Specific characters, costumes, poses and flowing carriers may change while preserving formal relationships; changes to core color groups require a derived version."
+        },
+        "check": {
+          "zh": "对照参考与输出检查本条关系，不可判断时记 unknown。",
+          "en": "Compare reference and output for this relationship; record unknown when it cannot be assessed."
+        },
+        "evidence_ids": [
+          "E010"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      }
+    ],
+    "unresolved": [],
+    "validation_records": []
+  },
+  "task": {
+    "id": "TASK-STELLAR-TEMPLATE",
+    "mode": "template",
+    "content": {
+      "zh": "主题：{{主题}}；主体：{{主体}}；动作与状态：{{动作与状态}}；场景：{{场景}}。",
+      "en": "Theme: {{theme}}; subjects: {{subjects}}; actions and state: {{actions_and_state}}; environment: {{environment}}."
+    },
+    "context": {
+      "subject_kind": "unknown",
+      "scene_kind": "unknown",
+      "shot_type": "unknown",
+      "text_mode": "unknown"
+    },
+    "requirements": [],
+    "unresolved": []
+  }
+}

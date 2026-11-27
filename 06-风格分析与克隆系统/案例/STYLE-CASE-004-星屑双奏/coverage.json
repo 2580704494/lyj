@@ -1,0 +1,95 @@
+{
+  "system_version": "1.0.0",
+  "schema_version": "1.0",
+  "profile_id": "STYLE-STELLAR-DUET-004",
+  "profile_version": "0.1.0",
+  "task_id": "TASK-STELLAR-TEMPLATE",
+  "task_mode": "template",
+  "source_digest": "1675b309ce58447f0aa8b99b07848f9d20c805e389bc75dd70d32d626b6c7a4f",
+  "export_status": "template",
+  "illustrative": false,
+  "image_status": "not_generated",
+  "semantic_equivalence": "not_checked",
+  "pending": [],
+  "active_rule_ids": [
+    "R001",
+    "R002",
+    "R003",
+    "R004",
+    "R005",
+    "R006",
+    "R007",
+    "R008",
+    "R009",
+    "R010"
+  ],
+  "inactive_rule_ids": [],
+  "unknown_rule_ids": [],
+  "coverage": {
+    "01_prompt_zh.json": {
+      "style_rules": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R008",
+        "R009",
+        "R010",
+        "R005",
+        "R006",
+        "R007"
+      ],
+      "task_requirements": []
+    },
+    "02_prompt_en.json": {
+      "style_rules": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R008",
+        "R009",
+        "R010",
+        "R005",
+        "R006",
+        "R007"
+      ],
+      "task_requirements": []
+    },
+    "03_prompt_zh_simple.txt": {
+      "style_rules": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R008",
+        "R009",
+        "R010",
+        "R005",
+        "R006",
+        "R007"
+      ],
+      "task_requirements": []
+    },
+    "04_prompt_en_natural.txt": {
+      "style_rules": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R008",
+        "R009",
+        "R010",
+        "R005",
+        "R006",
+        "R007"
+      ],
+      "task_requirements": []
+    }
+  },
+  "reuse": "Edit task and recompile. Do not silently alter core rules.",
+  "warnings": [
+    "Bilingual semantic equivalence requires review; structural checks do not prove it.",
+    "Image fidelity is not evaluated by this tool."
+  ]
+}
