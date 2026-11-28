@@ -1,0 +1,28 @@
+{
+  "tool": "built-in image_gen",
+  "attempt": 1,
+  "reference_conditioning": true,
+  "generation_prompt": "generation_prompt.txt",
+  "output": "风格变奏_v1.png",
+  "audit": {
+    "result": "pass",
+    "failed_must": [],
+    "unknown_must": [],
+    "pending": [],
+    "non_must_findings": [],
+    "evidence_verification": "Record completeness checked only; actual pixels and statements require visual review."
+  },
+  "profile_status": "provisional",
+  "repository_status": "archived_by_user_request",
+  "scope": "仅本轮附参考图同主题定性审阅，不是独立验证。",
+  "differences": [
+    "三只猫替代原四只猫，姿态与位置重组",
+    "亮区改为左上、台沿改为斜弧",
+    "叶片较整齐锐利，主体毛发更流畅"
+  ],
+  "limitations": [
+    "未验证纯文本独立生成或跨主题通用性",
+    "猫脸与毛发规则需语义适配，animal 枚举不能区分全部动物",
+    "原始参考图不公开上传，作者未确认"
+  ]
+}

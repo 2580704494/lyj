@@ -1,0 +1,442 @@
+{
+  "schema_version": "1.0",
+  "system_version": "1.0.0",
+  "profile": {
+    "id": "STYLE-TEAL-GARDEN-CATS-006",
+    "version": "0.1.0",
+    "parent": null,
+    "name": {
+      "zh": "青绿花园猫·暖色细毛与冷色植物",
+      "en": "Teal garden cats: warm fine fur against cool foliage"
+    },
+    "status": "provisional",
+    "illustrative": false,
+    "dimensions": {
+      "identity": {
+        "state": "active",
+        "note": {
+          "zh": "几何化动物与细丝毛发、松散植物笔触结合。",
+          "en": "Geometric animals combine with fine silky fur and loose botanical paintwork."
+        }
+      },
+      "color": {
+        "state": "active",
+        "note": {
+          "zh": "橙红主体与青绿背景形成强烈冷暖对比，胸口奶白，下部深紫蓝。",
+          "en": "The orange-red subject contrasts with a teal ground, with a cream chest and deep violet-blue lower regions."
+        }
+      },
+      "light": {
+        "state": "active",
+        "note": {
+          "zh": "背景由深青过渡到薄荷绿、浅黄亮区，主体胸脸较亮。",
+          "en": "The background transitions from deep teal to mint and pale yellow, while the main face and chest are bright."
+        }
+      },
+      "composition": {
+        "state": "active",
+        "note": {
+          "zh": "主猫明显大于配角，上方植物空间宽阔，枝叶斜向穿插。",
+          "en": "The main cat is much larger than supporting cats, with broad botanical space above and diagonal branches."
+        }
+      },
+      "scale": {
+        "state": "active",
+        "note": {
+          "zh": "大主猫与小配角形成夸张尺度差。",
+          "en": "A dominant cat and smaller companions create exaggerated scale contrast."
+        }
+      },
+      "shape": {
+        "state": "active",
+        "note": {
+          "zh": "身体高长，耳朵尖，眼睛概括为青色半椭圆与小深色瞳孔。",
+          "en": "Bodies are tall, ears pointed and eyes simplified into cyan half-ovals with small dark pupils."
+        }
+      },
+      "render": {
+        "state": "active",
+        "note": {
+          "zh": "毛发以长细线表现，植物背景为较宽松的叠色笔触。",
+          "en": "Fur uses long fine strokes while botanical backgrounds use broader layered paint shapes."
+        }
+      },
+      "edge": {
+        "state": "active",
+        "note": {
+          "zh": "眼睛、胡须和部分毛发清楚，远处花叶柔化概括。",
+          "en": "Eyes, whiskers and selected fur strands are clear while distant leaves and flowers are softened and simplified."
+        }
+      },
+      "finish": {
+        "state": "active",
+        "note": {
+          "zh": "脸与毛发精修，背景花叶概括。",
+          "en": "Faces and fur are resolved, with simplified background foliage."
+        }
+      },
+      "texture": {
+        "state": "active",
+        "note": {
+          "zh": "暖色毛发从奶白胸口向下延伸，末端进入深紫蓝色区。",
+          "en": "Warm fur flows downward from a cream chest into dark violet-blue tips."
+        }
+      },
+      "density": {
+        "state": "active",
+        "note": {
+          "zh": "细节集中在面孔和毛发，叶片多为简化色形。",
+          "en": "Detail concentrates in faces and fur while leaves are mostly simplified color shapes."
+        }
+      },
+      "anchor": {
+        "state": "active",
+        "note": {
+          "zh": "主猫青色眼睛与奶白胸口吸引注意。",
+          "en": "The main cat’s cyan eyes and cream chest attract attention."
+        }
+      },
+      "tension": {
+        "state": "active",
+        "note": {
+          "zh": "暖红与冷青、细线与宽笔触、大与小对照。",
+          "en": "Warm red versus cool teal, fine marks versus broad brushwork, and large versus small forms."
+        }
+      }
+    },
+    "references": [
+      {
+        "id": "REF001",
+        "role": "style",
+        "source": "User-supplied tall botanical cat illustration in this conversation; author and original medium unverified.",
+        "seen": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E001",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "橙红主猫与青绿背景",
+        "observation": {
+          "zh": "橙红主体与青绿背景形成强烈冷暖对比，胸口奶白，下部深紫蓝。",
+          "en": "The orange-red subject contrasts with a teal ground, with a cream chest and deep violet-blue lower regions."
+        }
+      },
+      {
+        "id": "E002",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "毛发与植物背景",
+        "observation": {
+          "zh": "毛发以长细线表现，植物背景为较宽松的叠色笔触。",
+          "en": "Fur uses long fine strokes while botanical backgrounds use broader layered paint shapes."
+        }
+      },
+      {
+        "id": "E003",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "猫的身体、耳朵与眼睛",
+        "observation": {
+          "zh": "身体高长，耳朵尖，眼睛概括为青色半椭圆与小深色瞳孔。",
+          "en": "Bodies are tall, ears pointed and eyes simplified into cyan half-ovals with small dark pupils."
+        }
+      },
+      {
+        "id": "E004",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "主猫下垂毛发",
+        "observation": {
+          "zh": "暖色毛发从奶白胸口向下延伸，末端进入深紫蓝色区。",
+          "en": "Warm fur flows downward from a cream chest into dark violet-blue tips."
+        }
+      },
+      {
+        "id": "E005",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "背景浅黄亮区与深青阴影",
+        "observation": {
+          "zh": "背景由深青过渡到薄荷绿、浅黄亮区，主体胸脸较亮。",
+          "en": "The background transitions from deep teal to mint and pale yellow, while the main face and chest are bright."
+        }
+      },
+      {
+        "id": "E006",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "脸部与远处花叶",
+        "observation": {
+          "zh": "眼睛、胡须和部分毛发清楚，远处花叶柔化概括。",
+          "en": "Eyes, whiskers and selected fur strands are clear while distant leaves and flowers are softened and simplified."
+        }
+      },
+      {
+        "id": "E007",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "大主猫、小配角与上部植物",
+        "observation": {
+          "zh": "主猫明显大于配角，上方植物空间宽阔，枝叶斜向穿插。",
+          "en": "The main cat is much larger than supporting cats, with broad botanical space above and diagonal branches."
+        }
+      },
+      {
+        "id": "E008",
+        "reference_id": "REF001",
+        "provenance": "observed",
+        "region": "脸部、长毛与背景叶片",
+        "observation": {
+          "zh": "细节集中在面孔和毛发，叶片多为简化色形。",
+          "en": "Detail concentrates in faces and fur while leaves are mostly simplified color shapes."
+        }
+      }
+    ],
+    "rules": [
+      {
+        "id": "R001",
+        "dimension": "color",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "以朱红、橙红与珊瑚色形成暖色主形，青绿、青蓝及深海军蓝组织环境，奶白与淡黄提供亮区；保持强冷暖对比。",
+          "en": "Build warm principal forms with vermilion, orange-red and coral, organize the environment with teal, cyan and deep navy, and use cream and pale yellow for light areas; retain strong warm-cool contrast."
+        },
+        "variation": {
+          "zh": "主题、主体位置和动作可变，保留形式关系；猫及毛发规则仅在实际适用时使用。",
+          "en": "Theme, subject placement and actions may change while preserving formal relationships; use cat and fur rules only when actually applicable."
+        },
+        "check": {
+          "zh": "对照参考与成图检查本条视觉关系，不可判断记 unknown。",
+          "en": "Compare reference and output for this visual relationship; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E001"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R002",
+        "dimension": "render",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "让主要对象的精细方向性线纹与背景宽松叠色笔触对照，保留数字绘画质感；避免全图同样精细或光滑三维。",
+          "en": "Contrast fine directional marks on principal objects with broader layered brush shapes in the background, retaining a digital painting character; avoid uniformly detailed rendering or smooth 3D surfaces."
+        },
+        "variation": {
+          "zh": "主题、主体位置和动作可变，保留形式关系；猫及毛发规则仅在实际适用时使用。",
+          "en": "Theme, subject placement and actions may change while preserving formal relationships; use cat and fur rules only when actually applicable."
+        },
+        "check": {
+          "zh": "对照参考与成图检查本条视觉关系，不可判断记 unknown。",
+          "en": "Compare reference and output for this visual relationship; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E002"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R003",
+        "dimension": "shape",
+        "scope": "conditional",
+        "priority": "must",
+        "instruction": {
+          "zh": "猫主题采用高长简化轮廓、尖三角耳、几何化眼形、小三角鼻和细弧嘴；表情轻微诙谐，不改成写实猫或通用圆头幼猫。",
+          "en": "For cat subjects, use tall simplified silhouettes, pointed triangular ears, geometric eyes, a small triangular nose and a delicate curved mouth; keep a subtly amused expression rather than realistic cats or generic round-headed kittens."
+        },
+        "variation": {
+          "zh": "主题、主体位置和动作可变，保留形式关系；猫及毛发规则仅在实际适用时使用。",
+          "en": "Theme, subject placement and actions may change while preserving formal relationships; use cat and fur rules only when actually applicable."
+        },
+        "check": {
+          "zh": "对照参考与成图检查本条视觉关系，不可判断记 unknown。",
+          "en": "Compare reference and output for this visual relationship; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E003"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {
+          "subject_kind": [
+            "animal"
+          ]
+        },
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R004",
+        "dimension": "texture",
+        "scope": "conditional",
+        "priority": "must",
+        "instruction": {
+          "zh": "有毛发的主体用长而细、逐渐收尖的成束笔触沿体积方向流动，亮暗以色层和线束共同表达；避免摄影逐根毛发与塑料表面。",
+          "en": "For furry subjects, use long fine tapering grouped strokes flowing with form, expressing shading through both color layers and bundles of lines; avoid photographic individual hairs and plastic surfaces."
+        },
+        "variation": {
+          "zh": "主题、主体位置和动作可变，保留形式关系；猫及毛发规则仅在实际适用时使用。",
+          "en": "Theme, subject placement and actions may change while preserving formal relationships; use cat and fur rules only when actually applicable."
+        },
+        "check": {
+          "zh": "对照参考与成图检查本条视觉关系，不可判断记 unknown。",
+          "en": "Compare reference and output for this visual relationship; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E004"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {
+          "subject_kind": [
+            "animal"
+          ]
+        },
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R005",
+        "dimension": "light",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "以柔和色域过渡形成透光环境，主形关键区域较明亮，低处沉入冷暗色；避免硬闪光、强烈投影和金属高光。",
+          "en": "Create a luminous environment with soft transitions between color fields, brighten key subject areas and sink lower regions into cool dark color; avoid hard flash, strong cast shadows and metallic highlights."
+        },
+        "variation": {
+          "zh": "主题、主体位置和动作可变，保留形式关系；猫及毛发规则仅在实际适用时使用。",
+          "en": "Theme, subject placement and actions may change while preserving formal relationships; use cat and fur rules only when actually applicable."
+        },
+        "check": {
+          "zh": "对照参考与成图检查本条视觉关系，不可判断记 unknown。",
+          "en": "Compare reference and output for this visual relationship; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E005"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R006",
+        "dimension": "edge",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "保持表情和关键细线清楚，背景与次要边缘适当柔化，形成虚实层级；不要全图锐化或全图柔焦，不加粗黑描边。",
+          "en": "Keep expressions and key fine lines clear while softening background and secondary edges for hierarchy; avoid uniform sharpening, overall soft focus and thick black outlines."
+        },
+        "variation": {
+          "zh": "主题、主体位置和动作可变，保留形式关系；猫及毛发规则仅在实际适用时使用。",
+          "en": "Theme, subject placement and actions may change while preserving formal relationships; use cat and fur rules only when actually applicable."
+        },
+        "check": {
+          "zh": "对照参考与成图检查本条视觉关系，不可判断记 unknown。",
+          "en": "Compare reference and output for this visual relationship; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E006"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R007",
+        "dimension": "composition",
+        "scope": "conditional",
+        "priority": "must",
+        "instruction": {
+          "zh": "多主体场景用一个明显主形与少量较小配角建立尺度层级，通过斜向枝条或弧形边界引导视线，并保留安静空间；位置和姿态必须重新设计。",
+          "en": "In multi-subject scenes, establish scale hierarchy with one dominant form and a few smaller supporting subjects, guide the eye with diagonal branches or curved boundaries and retain quiet space; redesign positions and poses."
+        },
+        "variation": {
+          "zh": "主题、主体位置和动作可变，保留形式关系；猫及毛发规则仅在实际适用时使用。",
+          "en": "Theme, subject placement and actions may change while preserving formal relationships; use cat and fur rules only when actually applicable."
+        },
+        "check": {
+          "zh": "对照参考与成图检查本条视觉关系，不可判断记 unknown。",
+          "en": "Compare reference and output for this visual relationship; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E007"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {
+          "subject_kind": [
+            "animal",
+            "mixed"
+          ],
+          "shot_type": [
+            "wide"
+          ]
+        },
+        "requires": [],
+        "excludes": []
+      },
+      {
+        "id": "R008",
+        "dimension": "density",
+        "scope": "core",
+        "priority": "must",
+        "instruction": {
+          "zh": "将细节集中在主体识别点和方向性纹理，环境用有节奏的简化色形支撑，不增加无关小物或满铺装饰。",
+          "en": "Concentrate detail at identifying subject features and directional textures, supporting them with rhythmic simplified environmental shapes rather than unrelated small objects or all-over ornament."
+        },
+        "variation": {
+          "zh": "主题、主体位置和动作可变，保留形式关系；猫及毛发规则仅在实际适用时使用。",
+          "en": "Theme, subject placement and actions may change while preserving formal relationships; use cat and fur rules only when actually applicable."
+        },
+        "check": {
+          "zh": "对照参考与成图检查本条视觉关系，不可判断记 unknown。",
+          "en": "Compare reference and output for this visual relationship; record unknown if unclear."
+        },
+        "evidence_ids": [
+          "E008"
+        ],
+        "confidence": "medium",
+        "disposition": "confirmed",
+        "when": {},
+        "requires": [],
+        "excludes": []
+      }
+    ],
+    "unresolved": [],
+    "validation_records": []
+  },
+  "task": {
+    "id": "TASK-CATS-VARIATION",
+    "mode": "instance",
+    "content": {
+      "zh": "高竖幅青绿植物花园，三只猫：大橙红猫偏左，歪头，一只前爪搭在弧形台沿；右侧较小青色猫看向主猫，左下小金橙猫从叶间探出。上方留出透光植物空间，浅黄亮区偏左上，右侧偏深青。保留画风，重新安排姿态、数量和构图，无文字水印。",
+      "en": "Tall portrait teal botanical garden with three cats: a large orange-red cat slightly left, tilting its head with one paw on a curved parapet; a smaller cyan cat to the right looking toward it; a tiny golden-orange kitten peeking through leaves at lower left. Leave luminous foliage space above, with pale yellow light toward upper left and deeper teal to the right. Preserve style while redesigning poses, count and composition, without lettering or watermarks."
+    },
+    "context": {
+      "subject_kind": "animal",
+      "scene_kind": "exterior",
+      "shot_type": "wide",
+      "text_mode": "forbidden"
+    },
+    "requirements": [],
+    "unresolved": []
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "system_version": "1.0.0",
+    "schema_version": "1.0",
+    "profile_id": "STYLE-TEAL-GARDEN-CATS-006",
+    "profile_version": "0.1.0",
+    "task_id": "TASK-CATS-TEMPLATE",
+    "task_mode": "template",
+    "source_digest": "0fc875b828b6268d1c39501826bb591b10a70ab96cf12359acaea9a206e86d82",
+    "export_status": "template",
+    "illustrative": false,
+    "image_status": "not_generated",
+    "semantic_equivalence": "not_checked",
+    "pending": []
+  },
+  "language": "en",
+  "content": "Theme: {{theme}}; subjects: {{subjects}}; actions and state: {{actions_and_state}}; environment: {{environment}}. The animal condition is only a structural filter; derive an adapted profile for non-cat or furless animals rather than mechanically applying cat-face or fur rules.",
+  "context": {
+    "subject_kind": "unknown",
+    "scene_kind": "unknown",
+    "shot_type": "unknown",
+    "text_mode": "unknown"
+  },
+  "style_rules": [
+    {
+      "id": "R001",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Build warm principal forms with vermilion, orange-red and coral, organize the environment with teal, cyan and deep navy, and use cream and pale yellow for light areas; retain strong warm-cool contrast.",
+      "variation": "Theme, subject placement and actions may change while preserving formal relationships; use cat and fur rules only when actually applicable.",
+      "check": "Compare reference and output for this visual relationship; record unknown if unclear."
+    },
+    {
+      "id": "R002",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Contrast fine directional marks on principal objects with broader layered brush shapes in the background, retaining a digital painting character; avoid uniformly detailed rendering or smooth 3D surfaces.",
+      "variation": "Theme, subject placement and actions may change while preserving formal relationships; use cat and fur rules only when actually applicable.",
+      "check": "Compare reference and output for this visual relationship; record unknown if unclear."
+    },
+    {
+      "id": "R005",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Create a luminous environment with soft transitions between color fields, brighten key subject areas and sink lower regions into cool dark color; avoid hard flash, strong cast shadows and metallic highlights.",
+      "variation": "Theme, subject placement and actions may change while preserving formal relationships; use cat and fur rules only when actually applicable.",
+      "check": "Compare reference and output for this visual relationship; record unknown if unclear."
+    },
+    {
+      "id": "R006",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Keep expressions and key fine lines clear while softening background and secondary edges for hierarchy; avoid uniform sharpening, overall soft focus and thick black outlines.",
+      "variation": "Theme, subject placement and actions may change while preserving formal relationships; use cat and fur rules only when actually applicable.",
+      "check": "Compare reference and output for this visual relationship; record unknown if unclear."
+    },
+    {
+      "id": "R008",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "Concentrate detail at identifying subject features and directional textures, supporting them with rhythmic simplified environmental shapes rather than unrelated small objects or all-over ornament.",
+      "variation": "Theme, subject placement and actions may change while preserving formal relationships; use cat and fur rules only when actually applicable.",
+      "check": "Compare reference and output for this visual relationship; record unknown if unclear."
+    },
+    {
+      "id": "R003",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "subject_kind": [
+          "animal"
+        ]
+      },
+      "instruction": "For cat subjects, use tall simplified silhouettes, pointed triangular ears, geometric eyes, a small triangular nose and a delicate curved mouth; keep a subtly amused expression rather than realistic cats or generic round-headed kittens.",
+      "variation": "Theme, subject placement and actions may change while preserving formal relationships; use cat and fur rules only when actually applicable.",
+      "check": "Compare reference and output for this visual relationship; record unknown if unclear."
+    },
+    {
+      "id": "R004",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "subject_kind": [
+          "animal"
+        ]
+      },
+      "instruction": "For furry subjects, use long fine tapering grouped strokes flowing with form, expressing shading through both color layers and bundles of lines; avoid photographic individual hairs and plastic surfaces.",
+      "variation": "Theme, subject placement and actions may change while preserving formal relationships; use cat and fur rules only when actually applicable.",
+      "check": "Compare reference and output for this visual relationship; record unknown if unclear."
+    },
+    {
+      "id": "R007",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "subject_kind": [
+          "animal",
+          "mixed"
+        ],
+        "shot_type": [
+          "wide"
+        ]
+      },
+      "instruction": "In multi-subject scenes, establish scale hierarchy with one dominant form and a few smaller supporting subjects, guide the eye with diagonal branches or curved boundaries and retain quiet space; redesign positions and poses.",
+      "variation": "Theme, subject placement and actions may change while preserving formal relationships; use cat and fur rules only when actually applicable.",
+      "check": "Compare reference and output for this visual relationship; record unknown if unclear."
+    }
+  ],
+  "task_requirements": []
+}

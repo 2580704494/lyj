@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "source_digest": "8414d88254b888eb1d516afa46a3e6d6706a3325ede8e7db8fec1a456725a42a",
+  "image_status": "reviewed",
+  "image_ref": "风格变奏_v1.png",
+  "checks": [
+    {
+      "id": "R001",
+      "result": "pass",
+      "region": "成图对应主体或植物区域",
+      "evidence": "暖橙红主猫与青绿环境、奶白胸口和冷暗下部得到保留。"
+    },
+    {
+      "id": "R002",
+      "result": "pass",
+      "region": "成图对应主体或植物区域",
+      "evidence": "主体长细毛线与背景宽松叠色形成对比，背景比参考更整齐。"
+    },
+    {
+      "id": "R003",
+      "result": "pass",
+      "region": "成图对应主体或植物区域",
+      "evidence": "主猫保留尖耳、半闭几何眼、小鼻和细弧嘴；配角面部有所变化。"
+    },
+    {
+      "id": "R004",
+      "result": "pass",
+      "region": "成图对应主体或植物区域",
+      "evidence": "长细毛线沿身体下垂和弯曲，没有写实逐根毛发质感。"
+    },
+    {
+      "id": "R005",
+      "result": "pass",
+      "region": "成图对应主体或植物区域",
+      "evidence": "亮区位于左上，冷暗集中于右侧和下方，符合本次变奏任务。"
+    },
+    {
+      "id": "R006",
+      "result": "pass",
+      "region": "成图对应主体或植物区域",
+      "evidence": "脸部毛发清楚，部分叶缘比参考锐利，但仍有主次虚实。"
+    },
+    {
+      "id": "R007",
+      "result": "pass",
+      "region": "成图对应主体或植物区域",
+      "evidence": "一个大主猫配两个小猫、斜弧台沿和上部空间清楚。"
+    },
+    {
+      "id": "R008",
+      "result": "pass",
+      "region": "成图对应主体或植物区域",
+      "evidence": "细节集中在面孔毛发，未加入不相关物件。"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "system_version": "1.0.0",
+    "schema_version": "1.0",
+    "profile_id": "STYLE-TEAL-GARDEN-CATS-006",
+    "profile_version": "0.1.0",
+    "task_id": "TASK-CATS-VARIATION",
+    "task_mode": "instance",
+    "source_digest": "8414d88254b888eb1d516afa46a3e6d6706a3325ede8e7db8fec1a456725a42a",
+    "export_status": "ready",
+    "illustrative": false,
+    "image_status": "not_generated",
+    "semantic_equivalence": "not_checked",
+    "pending": []
+  },
+  "language": "zh",
+  "content": "高竖幅青绿植物花园，三只猫：大橙红猫偏左，歪头，一只前爪搭在弧形台沿；右侧较小青色猫看向主猫，左下小金橙猫从叶间探出。上方留出透光植物空间，浅黄亮区偏左上，右侧偏深青。保留画风，重新安排姿态、数量和构图，无文字水印。",
+  "context": {
+    "subject_kind": "animal",
+    "scene_kind": "exterior",
+    "shot_type": "wide",
+    "text_mode": "forbidden"
+  },
+  "style_rules": [
+    {
+      "id": "R001",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "以朱红、橙红与珊瑚色形成暖色主形，青绿、青蓝及深海军蓝组织环境，奶白与淡黄提供亮区；保持强冷暖对比。",
+      "variation": "主题、主体位置和动作可变，保留形式关系；猫及毛发规则仅在实际适用时使用。",
+      "check": "对照参考与成图检查本条视觉关系，不可判断记 unknown。"
+    },
+    {
+      "id": "R002",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "让主要对象的精细方向性线纹与背景宽松叠色笔触对照，保留数字绘画质感；避免全图同样精细或光滑三维。",
+      "variation": "主题、主体位置和动作可变，保留形式关系；猫及毛发规则仅在实际适用时使用。",
+      "check": "对照参考与成图检查本条视觉关系，不可判断记 unknown。"
+    },
+    {
+      "id": "R005",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "以柔和色域过渡形成透光环境，主形关键区域较明亮，低处沉入冷暗色；避免硬闪光、强烈投影和金属高光。",
+      "variation": "主题、主体位置和动作可变，保留形式关系；猫及毛发规则仅在实际适用时使用。",
+      "check": "对照参考与成图检查本条视觉关系，不可判断记 unknown。"
+    },
+    {
+      "id": "R006",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "保持表情和关键细线清楚，背景与次要边缘适当柔化，形成虚实层级；不要全图锐化或全图柔焦，不加粗黑描边。",
+      "variation": "主题、主体位置和动作可变，保留形式关系；猫及毛发规则仅在实际适用时使用。",
+      "check": "对照参考与成图检查本条视觉关系，不可判断记 unknown。"
+    },
+    {
+      "id": "R008",
+      "scope": "core",
+      "priority": "must",
+      "when": {},
+      "instruction": "将细节集中在主体识别点和方向性纹理，环境用有节奏的简化色形支撑，不增加无关小物或满铺装饰。",
+      "variation": "主题、主体位置和动作可变，保留形式关系；猫及毛发规则仅在实际适用时使用。",
+      "check": "对照参考与成图检查本条视觉关系，不可判断记 unknown。"
+    },
+    {
+      "id": "R003",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "subject_kind": [
+          "animal"
+        ]
+      },
+      "instruction": "猫主题采用高长简化轮廓、尖三角耳、几何化眼形、小三角鼻和细弧嘴；表情轻微诙谐，不改成写实猫或通用圆头幼猫。",
+      "variation": "主题、主体位置和动作可变，保留形式关系；猫及毛发规则仅在实际适用时使用。",
+      "check": "对照参考与成图检查本条视觉关系，不可判断记 unknown。"
+    },
+    {
+      "id": "R004",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "subject_kind": [
+          "animal"
+        ]
+      },
+      "instruction": "有毛发的主体用长而细、逐渐收尖的成束笔触沿体积方向流动，亮暗以色层和线束共同表达；避免摄影逐根毛发与塑料表面。",
+      "variation": "主题、主体位置和动作可变，保留形式关系；猫及毛发规则仅在实际适用时使用。",
+      "check": "对照参考与成图检查本条视觉关系，不可判断记 unknown。"
+    },
+    {
+      "id": "R007",
+      "scope": "conditional",
+      "priority": "must",
+      "when": {
+        "subject_kind": [
+          "animal",
+          "mixed"
+        ],
+        "shot_type": [
+          "wide"
+        ]
+      },
+      "instruction": "多主体场景用一个明显主形与少量较小配角建立尺度层级，通过斜向枝条或弧形边界引导视线，并保留安静空间；位置和姿态必须重新设计。",
+      "variation": "主题、主体位置和动作可变，保留形式关系；猫及毛发规则仅在实际适用时使用。",
+      "check": "对照参考与成图检查本条视觉关系，不可判断记 unknown。"
+    }
+  ],
+  "task_requirements": []
+}
