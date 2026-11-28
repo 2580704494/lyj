@@ -27,7 +27,7 @@
     "examples/repo_handoff.json": "9040ccbba1211e7be604e0518df5e60c50cc164c0832f3091ea42863ba263c54",
     "INTEGRATION_REPORT.json": "af7a09312e8cd5563b3da95a668732e538f7f3959371c58424077ff49a0f2e77",
     "MEMORY_CARD.txt": "9e6f716b507a46ffd002483f887b184c9d3133c76cc4345628a6b89b019f59d1",
-    "README.md": "cbf6c44a8f3ba8be99cf9752ff7987b298bae542d3eeab0d01dccb2b6c17f39b",
+    "README.md": "80830d9fea2fb786e95f0c0e28bfbddd120b018a786c4a56d85c7be01d86a768",
     "README.txt": "125c270e5ad4e8428667792544b3f3cec01659a048d247213ad384c201090d12",
     "schemas/bundle.schema.json": "919bfc1b3e0209efe98e7ccee6a83dc3b5918f68a943dfb5eb9b9b4b589933bf",
     "schemas/repo_handoff.schema.json": "2481d29667bc6c6a30a8d863c416064cba1b3a10c991ac8a2f37c4b2d77e963b",
@@ -152,7 +152,15 @@
     "案例/STYLE-CASE-006-青绿花园猫/generation_prompt.txt": "770c2d18aa4ec3159f46da461ef452972949942ff4f6a9771044485faa146398",
     "案例/STYLE-CASE-006-青绿花园猫/README.md": "fd55bf5e7c2828b2e9ac8792208471d06a244dc78bfd69bcdae73c6ba266b366",
     "案例/STYLE-CASE-006-青绿花园猫/review.json": "4ab51adc80e762654ef70aa363f6cf4719e516d47f03acb72c1257b79a5d4e00",
-    "案例/STYLE-CASE-006-青绿花园猫/生成记录.json": "1ef5d262477c259b1941ab61ac5e7fc972cdbfa7f6b390a0af6832d381ca5556"
+    "案例/STYLE-CASE-006-青绿花园猫/生成记录.json": "1ef5d262477c259b1941ab61ac5e7fc972cdbfa7f6b390a0af6832d381ca5556",
+    "案例/STYLE-CASE-007-蓝黄守护/风格变奏_v1.png": "d6c1374ea67ef5654f2296264383ef0439823c5ba625bc09a95204a8163b4419",
+    "案例/STYLE-CASE-007-蓝黄守护/01_prompt_zh.json": "4e2d0573c2aedc3ad9adf8037791acc4d441d65a9a488f5435f97d6048d2b590",
+    "案例/STYLE-CASE-007-蓝黄守护/02_prompt_en.json": "4727db57a5effec81f03616009b671207174deb630e01636fae19a0624ac04c2",
+    "案例/STYLE-CASE-007-蓝黄守护/03_prompt_zh_simple.txt": "73bc681bde123c3d4b33910c9ee22804356a575dc40805417dfd2f05b5d521c4",
+    "案例/STYLE-CASE-007-蓝黄守护/04_prompt_en_natural.txt": "f6b37dafe78a921e57a03651f2a4fcb985027cc671a875948039495d73e7dcbd",
+    "案例/STYLE-CASE-007-蓝黄守护/generation_prompt.txt": "770c2d18aa4ec3159f46da461ef452972949942ff4f6a9771044485faa146398",
+    "案例/STYLE-CASE-007-蓝黄守护/README.md": "32822dbe39d1346deed709b7ca1682f313892ab1b919927a613878d7a9d266c8",
+    "案例/STYLE-CASE-007-蓝黄守护/生成记录.json": "10029c1d643e721c088c6dc0e263987cc05cb540334684e64bbbc2ba0334d654"
   },
   "repository": "2580704494/lyj",
   "repository_adapter_version": "1.0"

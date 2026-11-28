@@ -1,0 +1,21 @@
+{
+  "tool": "built-in image_gen",
+  "attempt": 1,
+  "reference_conditioning": true,
+  "output": "风格变奏_v1.png",
+  "generation_prompt": "generation_prompt.txt",
+  "repository_status": "archived_by_user_request",
+  "status": "provisional",
+  "prompt_format": "本次四版为用户审阅后的主题实例，不是 SC-IMG bundle schema，也不是跨主题通用模板。",
+  "observations": [
+    "蓝黄强对比、冷灰底和近黑轮廓保留",
+    "干刷刮擦纹理保留，但新图纹理覆盖更密",
+    "动作改为俯身遮护，人群在地面行走",
+    "头部和手部比参考更具体，原图更抽象概括"
+  ],
+  "limitations": [
+    "未完成逐规则结构化视觉验收，不标 validated",
+    "未测试纯文字独立生成或跨主题通用性",
+    "参考原作者与完整出处未确认，原参考图不公开提交"
+  ]
+}

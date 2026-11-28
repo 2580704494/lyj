@@ -68,3 +68,5 @@ python tools/scimg.py verify-package .
 - [STYLE-CASE-005 绯红线仪](./案例/STYLE-CASE-005-绯红线仪/README.md)：分析、通用与实例四版提示词、首轮样图和审计；红底出现暗角与明暗起伏，头饰暗纹比参考明显，档案 provisional。
 
 - [STYLE-CASE-006 青绿花园猫](./案例/STYLE-CASE-006-青绿花园猫/README.md)：暖色细毛与冷色植物、三猫变奏、通用及实例四版提示词；单图暂定，跨主题未验证。
+
+- [STYLE-CASE-007 蓝黄守护](./案例/STYLE-CASE-007-蓝黄守护/README.md)：蓝黄粗粝编辑插画、守护主题变奏与经审阅的四版实例提示词；暂定，未验证跨主题。

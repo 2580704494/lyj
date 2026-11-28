@@ -1,0 +1,33 @@
+{
+  "task": "Create a new guardian-themed illustration in the same visual series with a different composition",
+  "reference_role": "Extract palette, shape language, brushwork, texture and visual hierarchy without copying the original layout",
+  "format": "Portrait, approximately 2:3",
+  "theme": "A monumental guardian shelters ordinary people threatened by war, expressing protection, solidarity and resilience",
+  "style": {
+    "visual_language": "Raw, forceful contemporary allegorical editorial illustration and poster design",
+    "palette": "Highly saturated lemon yellow with cornflower and cobalt blue as the principal masses, cold gray for the environment, near-black navy for structure, and extremely small vermilion accents signaling danger",
+    "shapes": "Exaggerated anatomy with enormous shoulders, back and arms relative to a small head; summarize facial features through a few asymmetrical angular marks",
+    "rendering": "Broad flat color combined with dry brushing, scraping and irregular painted edges, avoiding realistic volumetric modeling",
+    "texture": "Worn-ink mottling, vertical dragged streaks, grain and erased patches integrated into the color planes, with varied intensity rather than uniform coverage",
+    "linework": "Bold near-black brush shapes and broken contours establish structure, while sparse white scratched lines emphasize the protected area",
+    "detail_hierarchy": "Prioritize the protective gesture and silhouettes, restrain facial detail, and depict small people as simplified black silhouettes",
+    "mood": "Urgent but resolute, with strength and compassion; the guardian must not appear to threaten those being protected"
+  },
+  "new_composition": {
+    "guardian": "A monumental blue guardian bends diagonally from the upper right toward the lower left, looking down at the people, without a crown",
+    "gesture": "One enormous forearm and open hand form a sheltering arc while the other hand braces beside the group; do not cup the people in two palms",
+    "people": "A small group of ordinary people move closely together or hold hands along a narrow ground strip in the lower image, standing on the ground rather than in a palm",
+    "protective_mark": "A few rough white arcs and short strokes indicate the sheltered area, without a complete white oval floating inside the hands",
+    "movement": "A yellow draped mass spreads diagonally, with flowing black hair or cloth marks reinforcing asymmetrical movement",
+    "threat": "Place two simplified dark missile symbols in the upper left, with tiny red-orange tips and broken white exhaust marks; keep the threat symbolic and non-graphic"
+  },
+  "avoid": [
+    "A copied, mirrored or merely recolored original composition",
+    "Photorealism, smooth 3D surfaces or glossy commercial rendering",
+    "Intricate fantasy armor, metallic ornament or elaborate background buildings",
+    "Uniform grain coverage or texture that obscures the subject",
+    "Graphic wounds, gore or identifiable real political figures",
+    "Text, slogans, logos, signatures, watermarks and borders"
+  ],
+  "success_criteria": "Preserve the strong blue-yellow contrast, rough printed texture, monumental-versus-tiny scale relationship and clear protective meaning, while redesigning the pose, gesture and layout"
+}
